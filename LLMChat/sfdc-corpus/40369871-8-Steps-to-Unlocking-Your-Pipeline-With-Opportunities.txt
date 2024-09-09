@@ -1,0 +1,73 @@
+8 steps to unlocking your pipeline with opportunities a major advantage of using salesforce crm is that you ’ll gain visibility into your organization ’s pipeline —
+so your managers can accurately predict future revenues based on all deals in progress .
+they can also track any individual deal , to know when to step in to help a deal along and guide the rep , as necessary .
+abstract to take advantage of these benefits , your sales organization take control of your pipeline and your deals by making the most of the opportunity object in needs a disciplined sales process that uses the opportunities salesforce crm .
+align your sales process with object in salesforce crm .
+the process itself is simple ; salesforce crm — and make your reps more however , it has to be understood by everyone in the organization productive as a result . and enforced by management .
+by jason garoutte this document covers the steps for getting started with opportunities and how to use related features to make your reps more productive : 1 .
+2 . 3 . 4 . 5 .
+6 . 7 . 8 .
+define your sales stages establish naming conventions make key fields mandatory run your forecast meetings with the pipeline report create “
+big deal ” alerts use activities and email templates use the similar opportunities feature use chatter to follow specific opportunities step 1 : define your sales stages because stages are the key to tracking deals as they progress , reps need to assign a stage and probability to every sales opportunity .
+the easiest stages to understand are “
+won ” and “ lost , ” but it ’s also important to assign stages to deals in progress .
+stages should progress from getting - started efforts , such as “ prospecting ” or “ qualifying , ” to final efforts , such as “ negotiation . ”
+typically , each stage is associated with key activities , deliverables , or milestones to be completed before moving to the next stage .
+be sure to clearly identify these components and build them into your process .
+8 steps to unlocking your pipeline with opportunities if you do n’t yet have an explicit process , use the default stages in salesforce crm , as shown in the illustration below .
+to make sure your stages fit your business , ask your administrator to customize each stage with a relevant name .
+whether you use the default stages or customize them to fit your business , your entire sales organization should understand what each stage means .
+so write your stage definitions on a cheat sheet , spend 30 minutes training your reps , and enforce those definitions every chance you get .
+step 2 : establish naming conventions to make it easy to read and understand reports , it ’s important that all reps use a consistent format when naming deals .
+you can use any names that suit you , but use a name that identifies whatever ’s important to your organization .
+here are some simple examples to get started : account name –
+product –
+quantity example : salesforce.com – printers – 10 account name –
+time line example : salesforce.com –
+june 2009 order as with stages , the key is to train your reps on correct naming for deals and to point out when they do it wrong .
+step 3 : make key fields mandatory by assigning mandatory fields to opportunities , you can make sure each rep enters key information .
+for every opportunity , decide which fields are mandatory .
+you can make great progress with just a few required fields such as amount , close date , stage , and competition as well as two to three fields tailored to your organization .
+but do n’t go overboard with required fields — having too many required fields can hurt adoption .
+step 4 : run forecast calls with pipeline reports you want your sales managers to treat salesforce crm as the single source of truth — it ’s the only way to get an accurate picture of future revenues .
+to achieve this goal , you need to be sure sales management is on board .
+the mantra should be , “
+if it ’s not in salesforce , it does n’t exist . ”
+managers must stick to this mantra when they run their forecast calls .
+at salesforce.com , we run forecast calls with everyone looking at the same report .
+occasionally a manager will get information at odds with the mandatory fields on an opportunity , such as “
+yeah , i know i typed $ 10,000 as a placeholder , but it ’s really more like a $ 30,000 deal .
+” when that happens , it ’s critical to reinforce the importance of keeping records current . best practice 2 8 steps to unlocking your pipeline with opportunities if you ’re just getting started with reports , check out the salesforce crm pre - defined reports .
+at salesforce.com , we also customize reports grouped first by fiscal period and then by stage , so our sales managers can discuss which deals are expected to close in each of the coming months .
+to get the predefined pipeline report : go to the report folder called opportunity reports and choose the opportunity pipeline report .
+that report shows the entire open pipeline , sorted by stage and probability .
+step 5 : create “ big deal ” alerts when it comes to a large sales opportunity , everyone needs to work together .
+by sending an automated big deal alert , you can quickly marshal all your resources .
+such an alert sends a snapshot of the opportunity when it reaches certain milestones ; for example , when it reaches 70% probability , as shown below .
+to set up alerts : go to setup / customize / opportunities step 6 : teach reps to use activities and email templates by storing any phone calls or emails to a prospect with the opportunity , you always have a complete record of all communications .
+by sending emails from the activities section of the opportunity record , reps can save time .
+those emails are automatically associated with a specific opportunity , contact , and account .
+they can also save time by using pre - defined email templates — just ask your administrator to customize them .
+these templates make communicating easy for reps , while ensuring all your communications are consistent and professional .
+to use email templates : go to setup / administration setup / communication templates .
+for additional tips , check out the document “ turbo - charge customer communications with email templates . ”
+step 7 : use the similar opportunities feature this feature helps your organization learn what works based on your collective experience .
+by showing similar opportunities that share up to 10 dimensions , reps can learn from similar deals that were won and use any associated resources .
+for example , you could look for wins selling a similar product , competing against the same competitor , or in the same industry .
+incorporate this information into your sales meetings .
+also use it in one - on - one discussions between managers and reps as part of a deal review process to understand the deal ’s history , current status , process compliance , and feedback .
+it ’s a great way to manage your business and train your reps .
+note that this feature gives users limited visibility into other reps’ opportunities , overriding the settings in a private sharing mode .
+to enable this feature : go to setup / customize / opportunities / similar opportunities .
+note that you must have enterprise or unlimited edition to use this feature .
+best practice 3 8 steps to unlocking your pipeline with opportunities step 8 : track deals automatically with chatter unlike traditional collaboration tools that make you do all the work , chatter brings everything you need to do your job to you — including updates about people , documents , and data .
+use chatter to follow every record that ’s important to you — whenever there ’s a change on that record , your personal chatter feed will be updated automatically , as shown below .
+also follow any documents or activities associated with that opportunity .
+when the entire team can see everything related to a record , everyone can collaborate for a faster win .
+ask your administrator to turn on chatter by clicking setup and navigating to appsetup / customize / chatter .
+enabling chatter also activates the salesforce user interface , which is not supported by internet explorer 6 .
+for more information on using chatter , go to the chatter
+getting started page .
+for information about how we use chatter , see the best practice document “
+how salesforce.com uses chatter . ” for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_opportunities_2010 - 08 - 19

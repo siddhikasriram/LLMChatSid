@@ -1,0 +1,10 @@
+﻿langchain 
+openai 
+langchain-openai 
+langchain-experimental 
+pypdf 
+InstructorEmbedding 
+sentence_transformers==2.2.2 
+chromadb
+pyPDF2
+streamlit

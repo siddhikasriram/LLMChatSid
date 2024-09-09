@@ -1,0 +1,99 @@
+understanding the basic building blocks of salesforce crm do you want to make your reps more efficient , your managers more effective , and watch your bottom line go off the charts ?
+with salesforce crm , thousands of customers have done just that .
+to reap all the benefits of salesforce crm , make sure your users understand the basic building blocks of the application .
+it ’s critical — when crm projects underperform it ’s usually not because of technology , but because reps do n’t use the application .
+when we asked around to find out why , we found that some customers just were n’t prepared for all the power of salesforce crm and did n’t understand how to work with application ’s basic building blocks , which we call “ objects . ”
+in this document , we ’ll introduce these objects , provide examples , and show how they help you manage your pipeline like never before .
+you ’ll learn to : abstract to take advantage of all salesforce crm has to offer , your sales reps and managers need to understand how to use the application to manage each deal .
+it ’s the key to accurately predicting revenue , managing your people , and continuously improving sales performance .
+by sylvia lehnen    understand the data objects understand your pipeline reap the benefits understand the data objects
+the graphic below shows an overview of the basic objects and how they relate to each other .
+as reps work their deals , these objects hold all the data related to those deals , from the beginning to the end of every sales cycle .
+these objects are the basis of well - designed , proven sales process that ensures that all information is in one place and makes it easy for reps to manage their own deals and for managers to get complete insight into all deals and customers .
+of course , you can customize the process to meet your own needs ; for example , some organizations do n’t use leads .
+understanding the basic building blocks of salesforce crm  leads –
+a lead object is a person or a company that might be interested in your product or service ; for example , someone a rep met at a conference or who filled out a web form .
+because leads are n’t connected to other objects , reps can create new leads without worrying about data quality .
+if the rep qualifies a lead and decides to pursue it , the lead is “ converted , ” which automatically transforms it into three objects : an account , a contact , and an opportunity .
+ accounts –
+the account object represents a company .
+you can create account records for prospects , customers , competitors , partners , or any other entities that makes sense for your business .
+an account record contains — or connects to — all information about your interactions with the company , such as inprogress and completed deals , your points of contact , and records of past interactions .
+think of accounts as your information backbone , with every other object related to the account .
+ contacts –
+the contact object stores information about people who work at the companies represented by the account object .
+a contact record contains all relevant information about the person , such as phone numbers , title , role in a deal , and much more .
+with contacts , you can capture all the personal information to help you develop the relationships that are so important in sales .
+when a rep converts a lead , the information in the lead is automatically transferred to the contact .
+as your engagement with a company widens and your reps meet more people , they can keep creating additional contacts associated with the corresponding account record .
+ opportunities –
+the opportunity object contains the information for every deal you ’re tracking , such as deal size and expected close date .
+the opportunity object is at the core of your sales process .
+by managing it correctly , you ’ll get the most value from your investment in salesforce crm .
+to gain visibility into your pipeline , you need to make sure that your reps diligently track their deals and update the opportunity fields with accurate information .
+this process makes everyone ’s life easier .
+sales managers will be able to see how the sales organization is performing in real time , and the sales reps wo n’t have to spend hours putting together reports and sales projections . updating the opportunity object is so important that many organizations insist that , “
+if it is n’t in salesforce , it does n’t exist . ”
+ activities – activities consist of the tasks , events , calls , and emails that make it possible to track every customer interaction .
+did you just have a phone conversation in which the customer agreed to certain terms and conditions of an in - progress deal ?
+click log a call on the opportunity record to document any best practice 2 8 steps to unlocking your pipeline with opportunities agreements .
+did a customer ask you to send some collateral ? log a task so that you wo n’t forget .
+tasks and emails can be fully synchronized with microsoft outlook .
+example of how objects are used let ’s say jenna , a sales rep for baci communications , meets jason from red corp. at a conference .
+jason is interested in baci ’s switching equipment and gives jenna his business card .
+here ’s how jenna would proceed : 1 .
+in salesforce crm , jenna creates a lead with jason ’s contact information .
+2 .
+she schedules follow - up calls with jason and his boss to confirm that the product is a good fit and that red corp. has the necessary budget .
+3 .
+in salesforce crm , jenna converts jason ’s lead , resulting in a contact , an account , and an opportunity .
+the app automatically converts jason ’s information into a contact , creates an account for red corp. , and creates an opportunity for the switching equipment .
+jenna also manually adds another contact with information about jason ’s boss .
+4 .
+jenna then enters all the information about the opportunity that will keep the deal on track .
+as the deal progresses , she regularly updates that information .
+for example , when red corp. decides it needs additional equipment , she updates the projected deal value and creates an additional opportunity .
+5 .
+each time she has contact with red corp .— a meeting , an email , a call — jenna creates an activity so that all communications are documented in a single place .
+as a result , both jenna and her boss can always review all interactions to date .
+understand your pipeline once qualified leads are converted into opportunities ( step 3 above ) , they feed the sales pipeline .
+reps can also create opportunities directly , without going through the lead process .
+when all reps use the opportunity object correctly , they can track their own deals , along with all communications with their prospects , with various dashboards , reports , and reminders .
+sales managers can track the deals of reps that report to them to identify possible bottlenecks and decide where additional resources are needed .
+and the vp of sales can see the company ’s entire pipeline to spot emerging trends and forecast with confidence .
+with the process that a rep follows in mind , let ’s take a look at the big picture of what happens as an opportunity moves through the sales stages .
+every opportunity includes fields to track critical information about each deal , such as the deal amount ( or deal size ) , projected deal close date , and probability of close .
+best practice 3 8 steps to unlocking your pipeline with opportunities here ’s an overview of the most important fields in the opportunity object :  opportunity owner is the name of the rep responsible for the deal .
+correctly assigning owners lets the sales manager know the performance of every rep and sales manager .
+it ’s the first step toward managing sales productivity .
+ opportunity name reflects what the deal entails .
+your company probably sells multiple products and services and may even uses multiple discount structures .
+although there are advanced features for product and pricing management , it will help to simply adopt a consistent opportunity naming convention .
+unless you use the product and pricebook objects , we recommend that your opportunity name contains account name , product , and price — for example , “ acme inc .- blue series router xt6800-$25,000 .
+” if you do use the product object , put all products into a single opportunity .
+we also recommend creating separate opportunities for every product or service .
+for example , if acme sells installation services in addition to routers , it could create a separate opportunity named “
+acme - blue series router xt6800 installation-$2,500 , ” instead of just adding that amount to the total .
+creating separate opportunities gives you a better , more differentiated view of your business , so you can run reports that show which products sell best , for which regions , and so on .
+ amount reflects how much revenue the deal will bring in , which typically equals the selling price .
+of course , as your deal progresses , you can keep tweaking the amount field depending on where you are with your negotiations .
+it ’s vital that the amount field is accurate at opportunity close because that ’s the number that will flow into all your closed business reports .
+ close date reflects when the deal is expected to complete .
+keeping your close dates accurate will give you greater visibility into the timing of your revenue inflows .
+ stage reflects where you are in the deal cycle .
+for example , prospecting , value proposition , and negotiation / review are some of the names for the stages we use internally at salesforce.com ; be sure to name your stages so they reflect your own sales process .
+as the deal progresses , reps update the stages .
+each successive stage should be associated with a higher probability of closing the deal , which is recorded in the probability field .
+ probability reflects the chance of successful deal close .
+salesforce crm automatically assigns default probabilities of close to each stage .
+as you keep honing your sales process , you ’ll tweak those probabilities to better reflect your business .
+for additional best practices for managing your pipeline , see the best practice “ 8 steps to unlocking your pipeline with opportunities .
+” reap the benefits when your reps correctly manage their sales pipelines , you ’ve got the basis for success with salesforce crm .
+you can now create dashboards and reports to analyze your pipeline — including the progress toward sales goals , which reps are most successful , how long it takes to convert deals , where deals are getting stuck , your win / lost trends , and much more .
+best practice 4 8 steps to unlocking your pipeline with opportunities from these dashboards , you can drill down to see the progress on any single deal to decide whether additional effort is needed to help a deal along .
+the bottom line : all the information you need to increase your bottom line is always at your fingertips .
+summary be sure your managers and your reps understand the basic model for salesforce crm , the objects that hold critical information , and their role in entering that information to bring those objects to life .
+this process is the secret to getting more business and closing more deals .
+it ’s also the basis for using more advanced features in salesforce crm to continually improve your process and your sales performance .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_whatyouneed2understand_2010 - 08 - 30

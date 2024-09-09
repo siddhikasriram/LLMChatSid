@@ -1,0 +1,1065 @@
+best practices for sales managers if you ’re a sales manager , salesforce crm can change your life — with better ways to predict revenues , manage your deals and your people , and stay on top of business .
+the best practices below are based on what we ’ve learned from thousands of successful customers .
+use them to explore how you can get the most from salesforce crm .
+overview for sales managers ▪ understanding the basic building blocks of salesforce crm ▪ 9 reasons why sales manager love salesforce crm ▪ 13 reasons sales reps love salesforce crm ▪ 6 proven ways to generate more leads ▪ 5 steps to effective lead management ▪ 9 tips for using lead scoring to close more deals ▪ 8 steps to unlocking your pipeline with opportunities ▪ 5 simple steps to reports and dashboards ▪ tips for using incentives and awards for boosting adoption ▪ turbo - charge customer communications with email templates ▪ customizable forecasting : what ’s in it for you ? ▪ 4 steps to deciding if territory management is right for you ▪ 8 keys for mobile crm success ▪ how to measure and increase customer loyalty ▪ 5 secrets to building a customer - centric business ▪ for business success , mind your metrics optimize your lead process optimize your sales process become even more productive business strategy understanding the basic building blocks of salesforce crm
+do you want to make your reps more efficient , your managers more effective , and watch your bottom line go off the charts ?
+with salesforce crm , thousands of customers have done just that .
+to reap all the benefits of salesforce crm , make sure your users understand the basic building blocks of the application .
+it ’s critical — when crm projects underperform it ’s usually not because of technology , but because reps do n’t use the application .
+when we asked around to find out why , we found that some customers just were n’t prepared for all the power of salesforce crm and did n’t understand how to work with application ’s basic building blocks , which we call “ objects . ”
+in this document , we ’ll introduce these objects , provide examples , and show how they help you manage your pipeline like never before .
+you ’ll learn to : abstract to take advantage of all salesforce crm has to offer , your sales reps and managers need to understand how to use the application to manage each deal .
+it ’s the key to accurately predicting revenue , managing your people , and continuously improving sales performance .
+by sylvia lehnen    understand the data objects understand your pipeline reap the benefits understand the data objects
+the graphic below shows an overview of the basic objects and how they relate to each other .
+as reps work their deals , these objects hold all the data related to those deals , from the beginning to the end of every sales cycle .
+these objects are the basis of well - designed , proven sales process that ensures that all information is in one place and makes it easy for reps to manage their own deals and for managers to get complete insight into all deals and customers .
+of course , you can customize the process to meet your own needs ; for example , some organizations do n’t use leads .
+understanding the basic building blocks of salesforce crm  leads –
+a lead object is a person or a company that might be interested in your product or service ; for example , someone a rep met at a conference or who filled out a web form .
+because leads are n’t connected to other objects , reps can create new leads without worrying about data quality .
+if the rep qualifies a lead and decides to pursue it , the lead is “ converted , ” which automatically transforms it into three objects : an account , a contact , and an opportunity .  accounts –
+the account object represents a company .
+you can create account records for prospects , customers , competitors , partners , or any other entities that makes sense for your business .
+an account record contains — or connects to — all information about your interactions with the company , such as inprogress and completed deals , your points of contact , and records of past interactions .
+think of accounts as your information backbone , with every other object related to the account .
+ contacts –
+the contact object stores information about people who work at the companies represented by the account object .
+a contact record contains all relevant information about the person , such as phone numbers , title , role in a deal , and much more .
+with contacts , you can capture all the personal information to help you develop the relationships that are so important in sales .
+when a rep converts a lead , the information in the lead is automatically transferred to the contact .
+as your engagement with a company widens and your reps meet more people , they can keep creating additional contacts associated with the corresponding account record .
+ opportunities –
+the opportunity object contains the information for every deal you ’re tracking , such as deal size and expected close date .
+the opportunity object is at the core of your sales process .
+by managing it correctly , you ’ll get the most value from your investment in salesforce crm .
+to gain visibility into your pipeline , you need to make sure that your reps diligently track their deals and update the opportunity fields with accurate information .
+this process makes everyone ’s life easier .
+sales managers will be able to see how the sales organization is performing in real time , and the sales reps wo n’t have to spend hours putting together reports and sales projections . updating the opportunity object is so important that many organizations insist that , “
+if it is n’t in salesforce , it does n’t exist . ”
+ activities – activities consist of the tasks , events , calls , and emails that make it possible to track every customer interaction .
+did you just have a phone conversation in which the customer agreed to certain terms and conditions of an in - progress deal ?
+click log a call on the opportunity record to document any best practice 2 8 steps to unlocking your pipeline with opportunities agreements .
+did a customer ask you to send some collateral ? log a task so that you wo n’t forget .
+tasks and emails can be fully synchronized with microsoft outlook .
+example of how objects are used let ’s say jenna , a sales rep for baci communications , meets jason from red corp. at a conference .
+jason is interested in baci ’s switching equipment and gives jenna his business card .
+here ’s how jenna would proceed : 1 .
+in salesforce crm , jenna creates a lead with jason ’s contact information .
+2 .
+she schedules follow - up calls with jason and his boss to confirm that the product is a good fit and that red corp. has the necessary budget .
+3 .
+in salesforce crm , jenna converts jason ’s lead , resulting in a contact , an account , and an opportunity .
+the app automatically converts jason ’s information into a contact , creates an account for red corp. , and creates an opportunity for the switching equipment .
+jenna also manually adds another contact with information about jason ’s boss .
+4 .
+jenna then enters all the information about the opportunity that will keep the deal on track .
+as the deal progresses , she regularly updates that information .
+for example , when red corp. decides it needs additional equipment , she updates the projected deal value and creates an additional opportunity .
+5 .
+each time she has contact with red corp .— a meeting , an email
+, a call — jenna creates an activity so that all communications are documented in a single place .
+as a result , both jenna and her boss can always review all interactions to date .
+understand your pipeline once qualified leads are converted into opportunities ( step 3 above ) , they feed the sales pipeline .
+reps can also create opportunities directly , without going through the lead process .
+when all reps use the opportunity object correctly , they can track their own deals , along with all communications with their prospects , with various dashboards , reports , and reminders .
+sales managers can track the deals of reps that report to them to identify possible bottlenecks and decide where additional resources are needed .
+and the vp of sales can see the company ’s entire pipeline to spot emerging trends and forecast with confidence .
+with the process that a rep follows in mind , let ’s take a look at the big picture of what happens as an opportunity moves through the sales stages .
+every opportunity includes fields to track critical information about each deal , such as the deal amount ( or deal size ) , projected deal close date , and probability of close .
+best practice 3 8 steps to unlocking your pipeline with opportunities here ’s an overview of the most important fields in the opportunity object :  opportunity owner is the name of the rep responsible for the deal .
+correctly assigning owners lets the sales manager know the performance of every rep and sales manager .
+it ’s the first step toward managing sales productivity .
+ opportunity name reflects what the deal entails .
+your company probably sells multiple products and services and may even uses multiple discount structures .
+although there are advanced features for product and pricing management , it will help to simply adopt a consistent opportunity naming convention .
+unless you use the product and pricebook objects , we recommend that your opportunity name contains account name , product , and price — for example , “ acme inc .- blue series router xt6800-$25,000 .
+” if you do use the product object , put all products into a single opportunity .
+we also recommend creating separate opportunities for every product or service .
+for example , if acme sells installation services in addition to routers , it could create a separate opportunity named “
+acme - blue series router xt6800 installation-$2,500 , ” instead of just adding that amount to the total .
+creating separate opportunities gives you a better , more differentiated view of your business , so you can run reports that show which products sell best , for which regions , and so on .
+ amount reflects how much revenue the deal will bring in , which typically equals the selling price .
+of course , as your deal progresses , you can keep tweaking the amount field depending on where you are with your negotiations .
+it ’s vital that the amount field is accurate at opportunity close because that ’s the number that will flow into all your closed business reports .
+ close date reflects when the deal is expected to complete .
+keeping your close dates accurate will give you greater visibility into the timing of your revenue inflows .
+ stage reflects where you are in the deal cycle .
+for example , prospecting , value proposition , and negotiation / review are some of the names for the stages we use internally at salesforce.com ; be sure to name your stages so they reflect your own sales process .
+as the deal progresses , reps update the stages .
+each successive stage should be associated with a higher probability of closing the deal , which is recorded in the probability field .
+ probability reflects the chance of successful deal close .
+salesforce crm automatically assigns default probabilities of close to each stage .
+as you keep honing your sales process , you ’ll tweak those probabilities to better reflect your business .
+for additional best practices for managing your pipeline , see the best practice “ 8 steps to unlocking your pipeline with opportunities .
+” reap the benefits when your reps correctly manage their sales pipelines , you ’ve got the basis for success with salesforce crm .
+you can now create dashboards and reports to analyze your pipeline — including the progress toward sales goals , which reps are most successful , how long it takes to convert deals , where deals are getting stuck , your win / lost trends , and much more .
+best practice 4 8 steps to unlocking your pipeline with opportunities from these dashboards , you can drill down to see the progress on any single deal to decide whether additional effort is needed to help a deal along .
+the bottom line : all the information you need to increase your bottom line is always at your fingertips .
+summary be sure your managers and your reps understand the basic model for salesforce crm , the objects that hold critical information , and their role in entering that information to bring those objects to life .
+this process is the secret to getting more business and closing more deals .
+it ’s also the basis for using more advanced features in salesforce crm to continually improve your process and your sales performance .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_whatyouneed2understand_2010 - 08 - 30 9 reasons why sales managers love salesforce crm with salesforce crm , managers can truly own the sales process , with total visibility into all information about prospects and customers , all in one place .
+they can see the status of their pipeline , deals in progress , projected revenues , and the performance of their reps .
+they can also stay on top of emerging trends — and move quickly to take advantage or avoid mistakes .
+with this information , they can easily identify which deals need help , which reps are doing well , abstract who needs coaching , and what it all means to the bottom line .
+here ’s what managers get with salesforce crm : 1 .
+decision support –
+managers have the information to quickly prioritize deals or customer issues .
+because the team ’s pipeline is in front of them 24/7 , they can plan ahead , set targets , and strategize on reaching quotas .
+managing all aspects of sales productivity takes work .
+by providing 360-degree visibility into the sales process , however , salesforce crm makes that work easier — and more effective— than ever before .
+by ly townsend 2 .
+support for coaching team members –
+managers can see when a rep needs assistance , either in general or with a specific opportunity .
+with this information , they can better understand customers’ goals and issues .
+of course , the application also shows where team members excel , so managers can encourage effective behavior .
+3 . advanced forecasting –
+because the entire team ’s opportunities are updated and aggregated in the application , there ’s no more need for excel spreadsheets .
+managers can review previously submitted forecasts and update or override forecasts .
+4 .
+on - demand reports – managers can run reports in real time — no waiting for team submissions .
+current reports on accounts , opportunities , team member tasks , and activities performed are always available .
+5 . dashboards –
+managers can get at - a - glance status information about their most critical business metrics with color - coded dashboards .
+for example , dashboards can show : •
+user adoption • sales goals and metrics • support and service metrics 6 . trending analysis and benchmarking –
+thanks to real - time reports and dashboards , it ’s never been easier to develop and track a team ’s short- and long - term business goals and key performance indicators ( kpis ) . 7 .
+lead management analysis –
+managers can see the percentage of qualified leads , how long it takes to convert them , and where leads are coming from .
+they can also see which sales reps are most effective at converting leads and use that information to make the most of their teams’ skills .
+9 reasons why sales managers love salesforce crm 8 .
+opportunity management analysis –
+by quickly searching through weeks or quarters for a side - byside analyses of team numbers , managers can see where opportunities were won or lost and what issues should be tackled right away .
+9 .
+activity management analysis –
+managers can evaluate sales activities at a glance , including outbound calls , emails , follow - up conversations , and more .
+activities can help ensure that the biggest deals and highest - priority customers receive the most attention .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_9reasonsmanagerslovesf_2010 - 03 - 30 13 reasons sales reps love salesforce crm what ’s the main reason crm projects fail ?
+according to experts , the most common problem is insufficient user adoption .
+one of the built - in advantages of salesforce crm is that the user experience is intuitive and delivers features that make a sales rep ’s life easier .
+it ’s these benefits that make salesforce crm a sales effectiveness tool for your reps .
+people naturally resist change , however , so you ’ll find it helpful to communicate early and often with your users , to tell them what ’s in it for them .
+also , be sure to listen .
+by incorporating the feedback from your users , you can get a great head start on adoption .
+here ’s what reps get with salesforce crm : 1 .
+abstract regular use of salesforce crm is important to driving full adoption .
+to achieve this goal , sales reps need to know how the application benefits them , day after day .
+the bottom line : salesforce crm is not just a tracking tool —
+it ’s a sales effectiveness tool . better visibility into customer information –
+reps can see all by matt jadhav their accounts , contacts , opportunities , tasks , and events in a single place .
+it means convenience , always being organized , and a 360-degree view of the customer .
+it means no more paper folders , excel spreadsheets , or sticky notes —
+it ’s all in salesforce crm .
+easy account planning –
+reps can do their own account planning .
+because reps can see their customers’ history , they can develop an account strategy and an action plan , complete with to - do tasks .
+reps can also create reminders of follow - up activities on specific dates .
+finally , they can see the amount of time committed to each account and the outcome of their efforts .
+better time management – reps can better prioritize their days and manage their activities .
+they can see their calendars and upcoming tasks on their home pages .
+and by checking the opportunities view in salesforce crm , they can focus on and prioritize current opportunities .
+reports – reps can run their own reports , including the following : • • • • accounts they haven’t visited in a while opportunities in the pipeline , including won opportunities and lost opportunities products they ’ve sold activities and tasks they ’ve completed 2 .
+3 . 4 . 5 .
+dashboards – reps can create their own dashboards to see how they ’re doing — at a glance .
+with dashboards , they can see the information that ’s critical to them , in various graph formats .
+they can also designate red , yellow , and green thresholds to show progress toward their goals .
+trending analyses – reps can see selling trends and use this information to generate more sales .
+with trending analysis , it ’s possible to calculate the win / loss ratio on opportunities , see monthly trends with opportunities in the pipeline , see the types of activities the rep does most , and see the number of closed deals versus quota .
+6 .
+13 reasons sales reps love salesforce crm 7 .
+opportunity forecasts –
+because all opportunities are updated in salesforce crm , reps can see where sales are coming in , what they forecast for previous periods , and where they can sell more .
+they no longer have to update excel spreadsheets and mail their forecasts to their managers .
+their managers will be happy as well — they can edit the forecasts without needing additional spreadsheets .
+email templates – reps can communicate more easily and consistently with their customers .
+salesforce crm provides standard email templates — such as introductory sales call , welcome customer , and
+thank you for your business — that can be easily edited and sent to multiple contacts .
+easy data updates –
+with the click of a button , reps can request that their contacts update their contact information .
+as with other email templates , it ’s easy to customize this “
+stay - in - touch ” email .
+when the contact responds , reps can decide whether to accept the updated information .
+8
+. 9
+. 10 .
+easy collaboration –
+reps can share information with their team members easily through salesforce chatter .
+that makes it easy to communicate about changes such as territory realignment , information needs to be passed to the next account owner , or anything else .
+reps can add team members to either accounts or opportunities .
+11 . built - in record search and create –
+reps can quickly create or search for the records they need .
+they can also add new leads , accounts , contacts , and opportunities with a single click .
+12 .
+outlook integration –
+being able to synchronize contacts , tasks , and calendar events between microsoft outlook and salesforce crm is a huge boon to productivity .
+reps no longer have to send emails twice .
+emails sent from outlook can also be added as a record in salesforce crm , and salesforce crm can be accessed from outlook folders . 13 .
+no more micromanagement –
+because managers can easily see histories , they can look in the application for pipeline information instead of constantly asking their reps .
+also , accountability issues are easily resolved because reps always know what is assigned to them .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_13reasons2lovecrm_2009 - 12 - 07 6 proven ways to generate more leads few things are more vital to a business than generating leads and future sales .
+but traditional marketing efforts to generate leads have been very costly .
+one way to get more from your marketing efforts at a lower cost is to meet your customers where they are — on the internet .
+with salesforce crm , you can automatically capture leads when people find abstract your site and fill out your web forms .
+you can then route those leads to capture more leads and follow up on them your reps for immediate follow up . more efficiently with salesforce crm .
+this because consumer behavior changes constantly , so do lead - generation opportunities .
+the latest opportunities for getting leads come from social networking sites .
+for that reason , it ’s important to revisit your lead capture strategies periodically to take advantage of evolving consumer behavior and technical trends .
+document covers the tools and resources that will turbocharge your lead - generation efforts .
+by kirti patel
+here ’s are 6 ways salesforce crm can help you get more leads , process them more effectively , and refine your lead - generation efforts : 1 .
+simplify lead capture from tradeshows and conferences –
+if your business participates in such events , you know they ’re a great tool for generating interest — and lots of business cards .
+you also know that getting all those contact details into the application can be time - consuming and prone to errors .
+no more !
+by using applications such as cardlasso , you can automatically transcribe business cards into leads .
+instead of wasting time typing in contact information , your reps can be calling new leads .
+use web - to - lead functionality –
+people who visit your website are already interested in your product or service .
+you can capture visitor information automatically to create leads in salesforce crm , ready for your reps to qualify .
+when using web - to - lead , keep in mind the following points : •
+know your target audience –
+before creating your web - to - lead form , think about what information you want to collect in standard and custom fields during the initial contact .
+taking the time to define these details also helps define your internal process .
+for example , if a lead is interested in a particular product , you can use assignment rules or queues to assign that lead to a product expert . •
+consider “ where ” and “ how much ” –
+when designing your form , decide where to place the input fields and how much information to ask for .
+usability tests show that contact information fields near the bottom of forms generate more leads than those near the top .
+also , do n’t ask people for too much personal information at the first contact — it ’s the most common reason people do n’t complete forms . •
+do n’t be afraid to multiply – use several forms to capture different types of information , depending on where the form appears .
+for example , you may want to collect different information in a “ contact me ” form than in an “
+event registration ” form . 2 .
+6 proven ways to generate more leads 3 .
+market where your prospects are looking –
+there are many tools — both free and available for a fee — to help you make sure people find your site when they search .
+• use google adwords – capture prospects that use google to search for your designated keywords and generate leads automatically .
+then segment those leads so your reps can follow up quickly . 4 .
+check the appexchange –
+look for apps that will enhance your sem efforts .
+for example , the free edition of the app seo for salesforce automatically connects to intelligence data through google analytics .
+use this information to track lead origins and report by search engine , search type , keyword , and campaign through your entire sales cycle .
+use the social cloud –
+be ready to take advantage of the latest trend in marketing — using social networking — and salesforce.com’s tools to help you capture leads from those areas .
+for example , check out appexchange apps that help you promote your product through twitter campaigns and automatically capture leads from twitter , such as toucan crm . evaluate your lead sources –
+in the past , it was difficult to see which lead sources performed best .
+with the analytics functionality of salesforce crm , it ’s easy to track how lead sources perform , so you can invest in those marketing techniques that get the best results .
+for example , check out the lead and opportunity management dashboards on the appexchange . 5 . 6 .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_leadgeneration_2010 - 03 - 19 5 steps to effective lead management leads are the people who are interested in your product and service .
+they ’re the life blood of any business — converting leads to loyal customers is what it takes to stay in business and thrive .
+by managing your leads in a systematic and structured way , you can increase both the number of leads you generate and how many of those leads you convert .
+abstract fine - tune your lead management process to the following 5 steps can help you increase your pipeline , make sure you get more leads and then make the most of focus on the right leads , and track what works and what does n’t : them . 1 . 2 . 3 . 4 . 5 . align sales and marketing capture more leads keep data clean work leads efficiently track lead - generation efforts align sales and marketing , grow your pipeline , shorten your sales cycle , and turn more leads into customers .
+by john kucera step # 1 : align sales and marketing you spend lots of resources developing leads .
+now make the most of those efforts by making sure marketing and sales work together so no lead is overlooked or dropped .
+many companies use a three - step process for processing leads : marketing nurtures leads , inside sales qualifies the leads and converts them to opportunities , and sales works the opportunity .
+others use just two steps : marketing converts the leads to sales opportunities when they meet agreed - upon criteria , such as a high lead score .
+sales then works the opportunity .
+ map out your sales process –
+ask yourself : what are the stages of your sales cycle ?
+which stages of the lead status do you want to track ?
+and what happens to leads after they come in ?
+ define clear hand - off criteria between marketing and sales – define when a marketing lead is passed to inside sales .
+and determine when an inside sales lead should be converted into an opportunity , account , and contact .
+many organizations pass marketing leads to inside sales only if a lead reaches a lead - score threshold .
+before passing on a lead , it ’s a best practice to make sure the lead has a defined need , the necessary budget , the purchasing authority , and an appropriate purchasing timeline .
+if not , you should continue to nurture the lead within marketing .
+ define success metrics up front –
+how will you measure success for both marketing and sales ?
+by defining these metrics up front , you ’ll be sure you ’ll capture the most important information as leads move through the funnel .
+many successful companies measure marketing based on pipeline generated .
+for example , to measure pipeline by industry , your reps could enter industry information into the lead or you could capture that information on your landing pages .
+then you can use a lead history report to show the number of all open opportunities by converted lead industry . 5 steps to effective lead management step # 2
+: capture more leads more leads mean more potential business .
+with salesforce crm , you have several options for getting leads into the app : capture them automatically from your web site or through social media , import them , or enter them manually .
+for more details , see the best practice “ 5 proven ways to generate more leads . ”
+ capture leads automatically –
+use your web properties , search engine marketing ( sem ) campaigns , and social media to capture potential customers .
+these strategies are very successful because potential customers are already looking for you .
+• use web - to - lead forms – capture contact information from people who fill out your forms . •
+use sem and google adwords – capture and analyze prospects who use google to search for your keywords .
+with salesforce crm , you can see which adwords campaigns generate the most revenue , not just which campaigns generate the most leads .
+for more information about sem campaigns , see the best practice “
+how to make the most of search engine marketing .
+” • use twitter –
+set up your twitter page and convert the people who follow you .
+ import leads –
+take lead lists from excel spreadsheets or from email applications such as outlook or gmail .
+you can also import leads directly from other crm applications such as act !
+ enter leads manually –
+this approach works well for individual leads .
+step # 3 : keep your data clean here ’s a common scenario : a rep meets a prospect at a conference and enters that person ’s information as a lead in salesforce crm .
+the same person then clicks on a google ad , which takes him to a landing page with a form he submits .
+you ’ve now got a duplicate lead .
+what to do ?
+ask your reps to use the find duplicates button frequently to find and resolve duplicate leads .
+also explore the following ways to keep your data clean :  clean your leads regularly –
+despite your best efforts , data will get “ dirty ” because of prospects’ job changes , human error , and duplicate or incomplete submissions .
+check out the data cleansing tools in the appexchange to help with your de - duplication efforts .
+ use validation rules –
+for example , you can create a rule that prevents leads from being converted if no email address was entered or if the customer ’s need has not been defined .
+for more information about data quality , see the best practice “ 6 steps toward top data quality . ”
+step # 4 : work leads efficiently once you have lots of leads , how do you make the most of them ?
+because leads differ in quality , you should prioritize them to make sure reps focus on your hottest leads first .  prioritize leads with lead scoring –
+use a point system to assign values to characteristics that align with successful sales .
+for example , you may assign 10 points to a ceo and 3 points to a manager , based on the experience that ceo prospects result in more closed deals .
+revisit scoring criteria regularly as you learn more about how various characteristics correlate with success .
+also consider formula fields for basic demographic scoring .
+for more information about lead scoring , see the best practice “ 9 tips for using lead scoring to close more deals . ”
+visit the appexchange to install the free lead scoring app from salesforce.com .
+for more advanced scoring needs — such as scoring a visit to a pricing page or opening an html email — check out these scoring applications .
+best practice 2 5 steps to effective lead management  categorize scored leads –
+once scored , you can categorize leads into levels of priority , such as a , b , and c. meet regularly to fine - tune the criteria for these categories .
+if your threshold for an a lead is usually 50 , for example , you might lower that threshold to flow more leads to sales if lead volume is low .
+ use assignment rules to route leads –
+it ’s a good idea to assign unqualified leads , such as category c leads , to a marketing queue to be nurtured until they ’re ready to buy .
+route qualified leads to the appropriate inside sales rep for further qualification .
+also be sure to create a rule without filters that routes leads to a default user , such as the marketing queue .
+that way , you can make sure no leads are lost because of gaps in your rules .
+step # 5 : track your lead - generation efforts to improve lead generation , you need to know which marketing tools work best for you .
+is it email campaigns ?
+google adwords campaigns ? webinars ?
+trade shows ?
+here ’s how to find out :  identify and track lead sources –
+find out where you get most of your leads .
+enter the lead source for each opportunity coming into the funnel so you can track roi as it moves through the funnel .
+ use the lead history report to analyze revenue and pipeline –
+the lead history report can tie lead criteria such as lead source , industry , or annual revenue to opportunity amounts , giving you the power to slice and dice revenue and pipeline for different leads .
+ use campaigns for deeper metrics –
+campaigns are a great tool for tracking the success of different lead - generation efforts using metrics such as # leads , # converted leads , $ $ pipeline , $ $ pipeline influenced , and roi .
+ use reports and dashboards – create a clear view of your funnel by defining the stages of your sales process — for example , # leads , # marketing qualified leads , # sales qualified leads , # opportunities , and $ $ closed revenue .
+you can then slice and dice these numbers to best measure success , whether that ’s by industry , lead source , product , or geography .
+follow these 5 steps and you ’re on your way to getting more leads and closing more deals .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_emailcampaign_2010 - 03 - 19 9 tips for using lead scoring to close more deals all leads are not created equal .
+according to analysts , a small increase in lead quality can result in a huge increase in sales productivity .
+with lead scoring , sales reps can focus on the high - quality leads and not waste time on prospects that are n’t right — or ready .
+better lead scoring means higher close rates .
+abstract properly scored leads mean higher sales lead scoring is the process of assigning a value to a particular lead based productivity .
+learn to effectively score and on defined criteria and behaviors .
+these criteria will vary from business to qualify new business to make the most of your business .
+think of lead scoring as a complex formula that takes multiple leads .
+values and combines them into a single value to help your reps make good
+by kirti patel business decisions .
+for example , lead scores help reps focus on hot leads and those most likely to result in a closed deal .
+to score a lead , you generally give it a score on a scale of 1–5 or 1–10 , based on criteria you define .
+to reach “ hot ” status , the total of all scores must reach a defined threshold .
+you can see common criteria in the sample lead - scoring system below .
+here are 9 tips to help you come up with an effective lead - scoring process : 1 .
+keep it simple –
+when you set up your lead process , decide whether fields are required or optional .
+keep it simple at first — only ask for a name , company , email address , and phone number .
+asking for too much detail on first contact often results in lower form completion rates .
+instead , use additional prospect touches to get more information .
+you ca n’t go wrong with “ bant ” –
+if you ’re just getting starting with lead scoring , use bant ( budget , authority , need , timing ) data as a preliminary assessment of lead quality .
+although you can capture some bant data with forms , this data is best gathered through interactions with your prospects .
+any data can be good data –
+categorize your lead data into two categories — explicit and implicit .
+explicit data is information volunteered in web forms , at events , and during interactions .
+you can directly control your explicit lead data by selecting specific fields on your forms as well as by call scripting .
+implicit data includes online behavior such as emails opened , click - throughs , form submissions , and downloads of marketing collateral .
+of course , all behavior does n’t rate the same .
+a visit to the corporate web site probably deserves a different score than downloading a white paper . 2 .
+3 . 9 tips for using lead scoring to close more deals 4 .
+evaluate explicit and implicit data together – to come up with the best possible lead score , evaluate both types of data together .
+do n’t depend only on profile data such as job function or title .
+for example , a lead with the right target profile , but who has never attended a webinar or downloaded a white paper , may score lower than a prospect with an identical profile who has been more engaged .
+similarly , just knowing someone has repeatedly engaged with the corporate site is not enough .
+you also want to make sure the prospect ’s profile shows he or she can make purchasing decisions .
+understand your target prospect ’s profile –
+when targeting prospects , look for “ ideal ” profiles , depending on your industry .
+for example , if your company sells computer equipment to other businesses , someone with the title it director might be the best profile for making purchasing decisions .
+as a result , you ’d assign such a lead additional points .
+get creative with salesforce crm – use the application ’s native functionality to score leads using custom formula fields .
+to learn more about custom formula fields , see this resource .
+automate , automate , automate –
+once you identify qualified prospects with lead scoring , automate the process by adding workflow and alerts .
+for example , when a lead reaches a certain score , set up an email alert to notify a sales rep to follow up immediately .
+a cold lead today can get hot tomorrow –
+the nature of business is that it ’s always changing .
+that means a lead that does n’t qualify today based on a low score should perhaps be nurtured for the future .
+instead of simply setting the lead status to “ disqualified , ” update your fields with details about why the lead is n’t qualified at this time .
+depending on why the lead was disqualified , you may want to follow up with targeted marketing efforts .
+leverage the appexchange –
+when you ’re ready to take lead scoring to the next level , check out the scoring applications in the appexchange directory .
+5 .
+6 . 7
+. 8
+. 9 .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_leadscoring_2010 - 03 - 19 8 steps to unlocking your pipeline with opportunities a major advantage of using salesforce crm is that you ’ll gain visibility into your organization ’s pipeline —
+so your managers can accurately predict future revenues based on all deals in progress .
+they can also track any individual deal , to know when to step in to help a deal along and guide the rep , as necessary .
+abstract to take advantage of these benefits , your sales organization take control of your pipeline and your deals by making the most of the opportunity object in needs a disciplined sales process that uses the opportunities salesforce crm .
+align your sales process with object in salesforce crm .
+the process itself is simple ; salesforce crm — and make your reps more however , it has to be understood by everyone in the organization productive as a result . and enforced by management .
+by jason garoutte this document covers the steps for getting started with opportunities and how to use related features to make your reps more productive : 1 .
+2 . 3 . 4 . 5 .
+6 . 7 . 8 .
+define your sales stages establish naming conventions make key fields mandatory run your forecast meetings with the pipeline report create “
+big deal ” alerts use activities and email templates use the similar opportunities feature use chatter to follow specific opportunities step 1 : define your sales stages because stages are the key to tracking deals as they progress , reps need to assign a stage and probability to every sales opportunity .
+the easiest stages to understand are “
+won ” and “ lost , ” but it ’s also important to assign stages to deals in progress .
+stages should progress from getting - started efforts , such as “ prospecting ” or “ qualifying , ” to final efforts , such as “ negotiation . ”
+typically , each stage is associated with key activities , deliverables , or milestones to be completed before moving to the next stage .
+be sure to clearly identify these components and build them into your process .
+8 steps to unlocking your pipeline with opportunities if you do n’t yet have an explicit process , use the default stages in salesforce crm , as shown in the illustration below .
+to make sure your stages fit your business , ask your administrator to customize each stage with a relevant name .
+whether you use the default stages or customize them to fit your business , your entire sales organization should understand what each stage means .
+so write your stage definitions on a cheat sheet , spend 30 minutes training your reps , and enforce those definitions every chance you get .
+step 2 : establish naming conventions to make it easy to read and understand reports , it ’s important that all reps use a consistent format when naming deals .
+you can use any names that suit you , but use a name that identifies whatever ’s important to your organization .
+here are some simple examples to get started : account name –
+product –
+quantity example : salesforce.com – printers – 10 account name –
+time line example : salesforce.com –
+june 2009 order as with stages , the key is to train your reps on correct naming for deals and to point out when they do it wrong .
+step 3 : make key fields mandatory by assigning mandatory fields to opportunities , you can make sure each rep enters key information .
+for every opportunity , decide which fields are mandatory .
+you can make great progress with just a few required fields such as amount , close date , stage , and competition as well as two to three fields tailored to your organization .
+but do n’t go overboard with required fields — having too many required fields can hurt adoption .
+step 4 : run forecast calls with pipeline reports you want your sales managers to treat salesforce crm as the single source of truth — it ’s the only way to get an accurate picture of future revenues .
+to achieve this goal , you need to be sure sales management is on board .
+the mantra should be , “
+if it ’s not in salesforce , it does n’t exist . ”
+managers must stick to this mantra when they run their forecast calls .
+at salesforce.com , we run forecast calls with everyone looking at the same report .
+occasionally a manager will get information at odds with the mandatory fields on an opportunity , such as “
+yeah , i know i typed $ 10,000 as a placeholder , but it ’s really more like a $ 30,000 deal .
+” when that happens , it ’s critical to reinforce the importance of keeping records current .
+best practice 2 8 steps to unlocking your pipeline with opportunities if you ’re just getting started with reports , check out the salesforce crm pre - defined reports .
+at salesforce.com , we also customize reports grouped first by fiscal period and then by stage , so our sales managers can discuss which deals are expected to close in each of the coming months .
+to get the predefined pipeline report : go to the report folder called opportunity reports and choose the opportunity pipeline report .
+that report shows the entire open pipeline , sorted by stage and probability .
+step 5 : create “ big deal ” alerts when it comes to a large sales opportunity , everyone needs to work together .
+by sending an automated big deal alert , you can quickly marshal all your resources .
+such an alert sends a snapshot of the opportunity when it reaches certain milestones ; for example , when it reaches 70% probability , as shown below .
+to set up alerts : go to setup / customize / opportunities step 6 : teach reps to use activities and email templates by storing any phone calls or emails to a prospect with the opportunity , you always have a complete record of all communications .
+by sending emails from the activities section of the opportunity record , reps can save time .
+those emails are automatically associated with a specific opportunity , contact , and account .
+they can also save time by using pre - defined email templates — just ask your administrator to customize them .
+these templates make communicating easy for reps , while ensuring all your communications are consistent and professional .
+to use email templates : go to setup / administration setup / communication templates .
+for additional tips , check out the document “ turbo - charge customer communications with email templates . ”
+step 7 : use the similar opportunities feature this feature helps your organization learn what works based on your collective experience .
+by showing similar opportunities that share up to 10 dimensions , reps can learn from similar deals that were won and use any associated resources .
+for example , you could look for wins selling a similar product , competing against the same competitor , or in the same industry . incorporate this information into your sales meetings .
+also use it in one - on - one discussions between managers and reps as part of a deal review process to understand the deal ’s history , current status , process compliance , and feedback .
+it ’s a great way to manage your business and train your reps .
+note that this feature gives users limited visibility into other reps’ opportunities , overriding the settings in a private sharing mode .
+to enable this feature : go to setup / customize / opportunities / similar opportunities .
+note that you must have enterprise or unlimited edition to use this feature .
+best practice 3 8 steps to unlocking your pipeline with opportunities step 8 : track deals automatically with chatter unlike traditional collaboration tools that make you do all the work , chatter brings everything you need to do your job to you — including updates about people , documents , and data .
+use chatter to follow every record that ’s important to you — whenever there ’s a change on that record , your personal chatter feed will be updated automatically , as shown below .
+also follow any documents or activities associated with that opportunity .
+when the entire team can see everything related to a record , everyone can collaborate for a faster win .
+ask your administrator to turn on chatter by clicking setup and navigating to appsetup / customize / chatter .
+enabling chatter also activates the salesforce user interface , which is not supported by internet explorer 6 .
+for more information on using chatter , go to the chatter
+getting started page .
+for information about how we use chatter , see the best practice document “
+how salesforce.com uses chatter . ” for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_opportunities_2010 - 08 - 19 5 simple steps to reports and dashboards reports and dashboards show how you performed in the past and what ’s happening at the moment— they ’re key to driving success and adoption for any crm project .
+the information provided by reports and dashboards is especially important in today ’s environment , where it ’s critical to be proactive , rather than reactive , in your approach .
+you want to be able to spot trends and act on them immediately .
+for example , a sales organization wants to know which deals were lost , which competitors are gaining ground , and whether the average time to close is increasing or decreasing .
+for a customer service organization , it ’s important to track the average abstract days or time to close and satisfaction .
+and marketing organizations want to track and improve business performance , to track campaign effectiveness and roi .
+you need reports that show trends as well as to make the most of salesforce crm ’s reporting capabilities , it ’s important to plan carefully and then follow these 5 proven steps to making reports and dashboards part of your business process : 1 . 2 . 3
+. 4 . 5 .
+know what keeps your executives up at night capture the right data build your reports build your dashboards use data to change behavior and drive results real - time dashboards for up - to - the minute information about your business .
+salesforce crm makes it easy to create both .
+by leahanne merritt step # 1 : know what keeps your executives up at night finding answers to critical business questions and making good decisions is vital to executives — and to their companies’ success and competitive position :  ask questions and start at the top –
+when designing reports and dashboards , first define what your executives — your ceo ; the vps of sales , marketing , support ; and your channels — need to know to run their business .
+what are their key metrics ?
+what behaviors do they want to encourage ?
+ align metrics with your company vision –
+take your business objectives , determine the metrics that measure those objectives , and map those metrics to the capabilities of salesforce crm .
+for example , if forecasting and tracking large deals are important to the vp of sales , make sure you understand the key data points that give insight into those tasks and the best frequency for reporting that data .
+or if your vp of marketing needs to track response rates , sales , trials , meetings , or campaign awareness , you need to capture that data at the campaign , campaign member , lead , and opportunity level to return meaningful metrics .
+tip : salespeople thrive on competition .
+if you make it possible to track their progress in relation to their peers , your overall adoption rates will go up .
+5 simple steps to reports and dashboards step # 2 : capture the right data your reports and dashboards are only as good as the data behind them — planning is the key to capturing and displaying the correct metrics .
+identify your sources early .
+consider working backwards : plan your reports first and then configure the application by adding custom fields , formulas , and so on .
+if your marketing team wants to see campaign effectiveness over time , for example , you ’d want to track which campaigns lead to leads , opportunities , and closed / won deals .
+every week , you could use snapshot reports on lead status by campaign and opportunity status by campaign to show how many leads and opportunities were received and converted from each campaign .
+ manage what you measure –
+pick a limited number of key performance indicators ( kpis ) or metrics .
+a third - party survey of the number of metrics used by ceos showed that 52 percent use 5–10 metrics to manage their entire business .
+ limit the number of reports / dashboards – focus on those tied to specific business objectives .
+ develop a clear , concise naming strategy –
+that approach will make report and dashboard folders easy to find .
+use labels that are meaningful to your users ; for example “ mw sales team , ” “
+premier / gold support analysts , ” or “ converted leads for verticals team . ”
+for dashboard folders , start with the word “ dashboard ”
+( dashboard – mw sales team , ” “ dashboard – premier / gold support analysts ” ) .
+ determine security and access for the report and dashboard folders and give users access based on their job functions or roles .
+step # 3 : build your reports most customers start with a current report tracked in excel or access and use it as a baseline .
+as you begin to build reports in salesforce crm , there are several resources to help you get started .
+ start with out - of the - box reports .
+salesforce.com offers standard reports across all standard objects .
+you can use these reports as the basis for your custom reports .
+ understand the three different report types and how they ’re used : • • tabular reports are the simplest and fastest way to return your data in a simple list view format .
+keep in mind that tabular reports ca n’t be used to create dashboard components .
+summary reports return your data with subtotals and other summary - level information .
+summary reports are great for showing average dollar values for closed won opportunities by salesperson or number of cases by status by support representative .
+matrix reports show data summaries against both horizontal and vertical criteria ; for example , total sales per sales rep per year by quarter . •
+ bookmark the analytics blog on the salesforce.com community web site .
+check back on a regular basis ( especially prior to each release ) for tips , tricks , and use cases for new analytics features and product enhancements .
+step # 4 : build your dashboards when you finish planning after asking all the right questions and building your reports , you ’re ready to build your dashboards .
+the key to building dashboards your vps , managers , and users ca n’t live without is to match the dashboard metrics to a compelling business metric .
+ understand the different dashboard formats and what type of data is best displayed in each format : • horizontal bar / vertical column charts are great for showing geographical data , stage or status information , or any data that ’s part of a single grouping .
+best practice 2 5 simple steps to reports and dashboards • pie and donut charts are useful for displaying data that shows proportions of a total , such as the number of leads by lead source .
+•
+one of the newest chart types , the funnel , is best used for showing ordered picklists such as opportunity stage , case status , or lead stage .
+for more information , go to help & training and search on chart types .
+ do n’t reinvent the wheel !
+go to the appexchange , download the free , pre - built dashboards — such as the lead and opportunity management dashboard — created by force.com labs , and customize them to meet your business needs .
+use these dashboards to track and measure adoption , sales productivity , campaigns , lead generation , and service and support .
+step # 5 : use data to drive behavior and produce results reports and dashboards are designed to be iterative —
+it ’s important to keep them current and relevant .
+to successfully roll out business metrics , good communication is key .
+make it easy for your users to find , view , and access the dashboards relevant to them .
+use the schedule refresh feature to ensure your users see the most recent data .
+and use schedule and email reports and dashboards to remind your users that their business - critical metrics are in salesforce crm .
+ manage from the top down –
+encourage managers to run forecast calls directly from their dashboards .
+many customers also have the following mandate for sales : “
+if it ’s not in salesforce , it does n’t exist . ”
+this directive proves to be extremely motivating for salespeople .
+ include adoption and data quality metrics –
+include a dashboard component that tracks faulty data , such as all accounts without an industry , contacts without valid email addresses , or leads with a status of “ qualified ” that haven’t been converted .
+again , publishing such metrics can be extremely motivating .
+ engage your user community –
+do n’t make the mistake of tracking such metrics only at the executive level — make sure your users see the same metrics on their personal dashboards .
+what do your users want to see ?
+what will help them do their jobs faster and smarter ?
+those are the metrics that matter .
+for example , you could create reports and dashboards that rank salespeople by top deal or top salespeople per quarter .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_5steps2reports - dashboards_2010 - 06 - 08 tips for using incentives and rewards to boost adoption how can you get users onboard with salesforce crm ?
+how can you get them to realize its value and encourage them to use it ?
+try incentive and reward programs —
+they’re a proven way to engage and motivate people .
+incentives can take different forms , including recognition , cash , points , or actual rewards .
+for example , one customer gives away iphones to the strongest adopters each quarter .
+another hands out monthly starbucks coffee cards to those abstract who convert the most leads .
+ measure usage –
+before you can reward usage , you need to know who ’s doing what , how often , and how well .
+to get that information , go to the appexchange and download some of the free adoption dashboards created by salesforce.com .
+the most popular of these are the adoption dashboards and a sales activity dashboard .
+user adoption is key to making salesforce crm a success .
+to ensure high rates of user adoption you need a long - term strategy , with ongoing efforts to drive adoption .
+find out how to make incentives and rewards part of your adoption strategy .
+by : nancye michaelian  tie compensation to usage –
+one of the strongest measures to boost adoption is to tie usage to compensation .
+build use of salesforce crm into your job descriptions and performance evaluations .
+and adopt the mantra , “
+if it ’s not in salesforce crm , it does n’t exist . ”
+it ’s an easy way to make sure user behavior aligns with your business objectives . about both timeliness and quality .
+for example , reps should enter prospects and early - stage opportunities immediately , rather than waiting until just before closing a deal to enter data .
+use picklists and validation rules to enforce these standards .
+you can also use the free data quality analysis dashboards to analyze the quality of the data your team enters .
+ ensure data quality –
+in addition to requiring that users enter data into salesforce crm , be specific  make adoption fun –
+decide what behavior you want to reward most — such as proposals or on - site demos — and then reward the top performers as part of a game or contest .
+• create a reward points program – one way of encouraging and tracking progress is to give people points .
+for example , a 90 percent login rate for the month could earn 10 points .
+users can cash in accumulated points on a special web site ( www.incentivemarketing.org/ ) .
+or start by giving users a certain numbers of points and then subtracting points when they do something wrong , such as not entering required information .
+• monthly newsletters
+– start a monthly newsletter with tips that reinforce your business processes and highlight success stories .
+you could include a quiz — for example , have users guess who has the largest pipeline this quarter , what campaign generated the most revenue , and so on .
+get it right and get a prize .
+turbo - charge customer communications with email templates • make a game of it – because your implementation is a work in progress , it ’s important to keep users engaged .
+a great way to do that is to make training creative and fun with games such as tic tac toe ( divide into teams and ask questions about functionality until someone wins ) , jeopardy ( create categories on different topics , divide into groups of 2 or 3 , highest points win ) , and poker hand ( get a card for asking and answering questions … the best poker hand wins the pot ) .
+• engage the team spirit –
+break user groups into teams and have them meet at regular intervals ( for example , quarterly ) to get their feedback and suggestions .
+use the application ’s ideas or cases functionality to track feedback and then let your admin judge the best ideas .
+the winning team gets dinner , tickets to sporting events , or something similar . • reward mentorship –
+assign team mentors , then reward the mentors of those teams that get good results .
+try lunches with the executives , where they can get visibility for themselves and their teams .
+ use peer pressure –
+let ’s face it — sometimes rewards just do n’t do the trick .
+in such cases , you can use disincentives to get people to comply .
+for example , a “ wall of fame – wall of shame ” page , which highlights those at the top and bottom of the leader board , can be a strong motivational tool .
+a real - life example of this approach comes from a customer who created a dashboard called “
+clean your room ” to discourage negligence such as stuck opportunities , pushed opportunities , and accounts with no recent activity .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_encourageadoption_2009 - 07 - 09 turbo - charge customer communications with email templates following up with an email after meeting a prospect or customer is a basic courtesy — and a welcome chance to reinforce important points and keep the communications channel open .
+of course , some reps are better at writing than others , and some would rather not write at all .
+with email templates , you can make sure all your reps have high - quality , abstract consistent responses to various situations at their fingertips .
+when reps use make your sales reps more productive , enforce email templates with the salesforce crm mass email capabilities , they your corporate look - and - feel , and ensure your messaging is always consistent and on point .
+can easily communicate with their entire customer base .
+in addition , product managers can use email templates to communicate about new
+by : oliver demuth & carman chan products and features , and marketing users can promote regional customer events and invite prospects to events such as webinars .
+there ’s also a builtin dynamic tracking feature that lets you track which emails were opened , how many times , and when each recipient last opened the email .
+and finally , email templates reinforce your corporate look and feel and ensure that the messaging in all your communications is accurate and up to date .
+you can create professional , high - impact html templates even without knowing html .
+with html expertise , you can create exactly the kind of email you want .
+and with the pages functionality of force.com , you can even merge fields from multiple records or objects in the email .
+make the most of email templates to help get the most out of email templates :  know the pros and cons of different types of email templates  ensure a consistent look and feel  leverage mass email for targeted communications  take advantage of tracking  protect templates from being changed by users  consider partner products for email marketing campaigns  keep templates organized for detailed instructions on how to create email templates , go to help & training .
+turbo - charge customer communications with email templates choose your templates salesforce.com provides four types of email templates : 1 . 2 . 3 .
+4 .
+text html with letterhead custom html force.com pages ( visualforce ) the table below summarizes the advantages and disadvantages of each email template type .
+typeoftemplate text pros does not require edit html permission requires no html knowledge few / no issues with email filters tracking consistent branding across organization quick add targeted messaging cons no tracking for mass emails no customization or corporate branding no visual elements requires edit html permission requires letterhead setup limited customization may get caught in email filters requires edit html permission requires html knowledge may get caught in email filters html with letterhead custom html
+tracking consistent branding across organization fully customizable ; you get exactly what you want makes it possible to merge fields from multiple records or objects force.com pages ( visualforce ) requires force.com pages / force.com code experience not available for mass emailing ensure a consistent look and feel you can ensure a consistent look and feel by creating a single letterhead to serve as the basis of all your html email templates .
+your letterhead can define the following attributes of the header and footer of your html emails : background color , header properties ( including logo ) , a top line , body colors , a middle line , footer properties , and a bottom line .
+the template itself determines the format of the email ’s main body .
+if your corporate identity changes frequently , simply changing your letterhead automatically changes all html templates based on the letterhead .
+tip : keep the number of letterheads to a minimum .
+multiple letterheads are useful for companies with multiple divisions that use different corporate brands or companies with logos in different languages .
+most companies just need a single letterhead , however .
+leverage mass email for targeted communications depending on your salesforce crm edition , users can send between 250 and 1,000 emails at a time , with just a few clicks of the mouse .
+sales reps can leverage personal or corporate emails templates to efficiently communicate with leads and contacts about new products , promotions , and upcoming events .
+take advantage of tracking salesforce crm lets you track emails , both at the level of an individual contact and for all accounts , including an overview of the exact date , time , and number of times your email was opened .
+if multiple emails are never opened , salesforce crm flags the contact so you can check whether he or she is still with the company .
+best practice 2 turbo - charge customer communications with email templates protect your email templates
+one of the benefits of using email templates is that you get a consistent look and feel and control over messaging , while still letting individual users personalize their emails .
+however , you may want to prevent users from changing sections of the template , such as pricing information , dates and locations , specific corporate disclaimers , policies and procedures , and of course logos and corporate branding .
+consider partner products for marketing campaigns the salesforce crm mass email capabilities make it possible to deliver 1,000 emails per organization per day .
+although that ’s fine for individual reps , check out the partner products in the marketing section of the appexchange to create sophisticated email campaigns and other demanding projects .
+here you ’ll find more full - featured apps for creating mailing lists of any size , tracking campaigns in progress , and getting postcampaign statistics to evaluate the effort .
+keep templates organized keep your templates up to date and easily accessible .
+make sure to keep public and personal templates separate .
+ ask users to place all self - created templates in a personal folder .
+use the clone button to copy public templates into a personal folder .
+ deactivate old templates by unchecking the available for use checkbox .
+note that deleted email templates are not stored in the recycle bin , but are permanently deleted .
+if you think you may need these templates again , deactivate rather than delete them .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_dataquality_2010 - 04 - 20 customizable forecasting : what ’s in it for you ? customizable forecasting —
+available in professional , enterprise , and unlimited editions — lets sales managers fine - tune their forecasting to better meet their companies’ needs .
+forecasting is both a science and an art .
+with customizable forecasting , the science part of the equation comes from combining the total dollar amounts represented by the opportunities in each stage and rolling up that total under the different forecast categories shown in the illustration below .
+the art consists in the ability to override forecasts .
+you also get additional flexibility in managing forecasts by being able to align forecast categories to opportunity stages , so the sales and forecasting processes truly complement each other .
+in addition , you can display and manage sales targets , quotas , product segments , and product quantities from within the forecast tab .
+read on to : abstract find out whether the customizable forecasting functionality is right for you — and how to prepare to implement it .
+by jennifer west & eran agrios  find out whether customizable forecasting is right for you  get an example of customizable forecasting  learn the steps for implementing the feature is customizable forecasting right for you ?
+before deciding to use this feature in salesforce crm , consider all your forecasting options and decide which of the following approaches meets your needs :  standard and custom reports –
+for many companies , it ’s sufficient to report on expected revenues based on various opportunity stages and expected close dates .
+several standard reports provide this level of reporting , and you can create custom reports as well .  forecast tab –
+the forecasts tab is available out of the box .
+this tab displays a home page you can use to quickly create and locate forecasts and quotas .
+in addition , the tab displays your monthly revenue projections , the amounts associated with open opportunities in your pipeline , and the amounts associated with closed / won opportunities . managers’ forecasts also show a roll - up of forecast data for users that report to them .
+note : the forecast tab is unlike any other tab in the application in that it shows real - time aggregation .
+as a sales manager , you can be confident that the numbers in the forecast tab are always up to date with any changes in your pipeline .  customizable forecasting –
+with this functionality , you can take a “
+sales funnel ” approach to forecasting by aligning your forecast categories to your organization ’s unique opportunity stages , as shown in the following diagram : customizable forecasting : what ’s in it for you ?
+example of a pipeline breakdown based on an 8-stage sales process
+in addition to forecasting according to your sales funnel , customizable forecasting makes it possible to : • override entries by sales reps to align with a sales manager ’s “ gut check . ”
+for example , let ’s say a sales rep identifies a $ 100,000 opportunity for the current quarter .
+if the sales manager thinks this assessment is too aggressive and the deal may slip , he can override the rep ’s opportunity to bring the forecast in line with a more realistic goal and timeline .
+manage sales targets and quotas by showing those values for all opportunities on the forecast tab .
+forecast by product segments to break down forecasts by showing how much individual products contribute to the total . •
+• important note about forecast reports : if you use forecast reports , please note that the commit category is an aggregation of the pipeline , best case , and commit fields .
+to get a separate breakdown of the numbers in each of these categories , use the opportunity report instead .
+customizable forecasting : an example two important advantages of customizable forecasting include deciding how forecasts are aggregated and being able to override forecasts .
+the scenario below shows how to do that in the application .
+1 . aggregating –
+you can decide how your forecasts are aggregated over time , on specific dates , or on the type of forecast : period – monthly or quarterly date –
+opportunity close date , product date , schedule date type –
+overall forecast , product family 2 . overriding
+–
+you can override forecasts to align with your intuitive feelings .
+the figure below shows the forecast tab before any overrides .
+the figures that follow show how to override the forecast categories as well as an individual opportunity .
+best practice 2 customizable forecasting : what ’s in it for you ?
+from the forecast tab , managers and direct reports can override their own forecasts .
+from the opportunities tab , managers and direct reports can also override values from the individual opportunity at the opportunity and product level , but not at the product schedule level .
+the result ?
+the diagram below shows the forecast tab after the overrides : best practice 3 customizable forecasting : what ’s in it for you ? 6 steps toward implementing customizable forecasting to effectively forecast in salesforce crm , it ’s important to clearly define your forecasting process .
+about 80% of your time will be spent on process and planning , 20% on implementing the functionality .
+to achieve accurate forecasts , be sure to complete the following 6 tasks : 1 .
+define your business process –
+a disciplined opportunity management process is critical for accurate forecasting .
+set up a review process with your reps and managers to discuss current and future opportunities .
+use this review to reinforce the sales stages .
+define your sales stages – make sure your users know at which point opportunities are moved from one stage to another and how that impacts their forecasts .
+with defined meanings , the stages help to accurately reflect where opportunities fall within the forecast .
+align your stages with a forecast category –
+make sure your users know how the opportunity stages and forecast categories map to each other .
+review forecast settings – decide whether to forecast by revenue , quantity , or both .
+also determine how forecasts should be displayed in the forecast tab .
+quotas – decide whether to track sales quotas . define key reports – reports may include a combination of forecast reports and opportunity pipeline reports .
+such combinations will help you understand the metrics important for making business decisions , as you can see in the examples below . 2 . 3 .
+4 . 5 .
+6 .
+if you decide that customizable forecasting is right for you , check out “ forecasting excellence : how to achieve pipeline visibility and forecast accuracy ” on the salesforce.com community .
+for more information contact your account executive to learn how we can help you accelerate your crm success . bp_customizableforecasting _ 2010 - 04 - 15 4 steps to deciding if territory management is right for you no , it has nothing to do with managing the pacific northwest .
+instead , territory management ( tm ) is a sharing model you can use to change the default data - sharing model and start forecasting in a new way .
+tm is available to salesforce crm enterprise and unlimited edition customers .
+you ’ll also need a force.com sandbox environment for testing prior to a full rollout .
+the salesforce crm default data - sharing model lets you access your records and those of anyone in the role hierarchy below you .
+by using tm , you can expand this model to also grant access to accounts , opportunities , and cases based on any record characteristics ( called “ territories ” ) you specify .
+tm is a very powerful feature that , once turned on for your org , can not be disabled .
+for that reason , it ’s critical that you plan carefully , test thoroughly , and consider getting expert guidance from salesforce.com consulting , for example , before making this change .
+abstract territory management can make your organization more efficient by organizing and sharing your data in a unique way .
+but it ’s not for everyone .
+find out whether it ’s right for your organization .
+by : jason suen why use tm ?
+let ’s say stephanie is a sales engineer who works on all accounts in the high - tech vertical , regardless of the account owner .
+if you ’re an administrator setting up her permissions without tm , you ’d probably use a set of sharing rules or the account teams feature to access the high - tech accounts that belong to various users , regions , and roles in her company .
+with tm , you can automatically assign a territory to accounts with characteristics similar to the high - tech account and make stephanie a member .
+now , stephanie and any peers that belong to the high - tech territory can access , collaborate , and work on all high - tech accounts together .
+providing data access based on territories is one way that tm changes how users can access data .
+the other way is that tm makes it possible to forecast based on territories rather than roles ( the default today ) .
+in fact , enhanced forecasting is a major reason why companies turn to tm .
+as a result , how you structure your territories directly affects how you can forecast because forecasting by role will no longer be possible .
+to use tm , you must enable customizable forecasting .
+it ’s a one - way change : there ’s no going back to the default forecasting model .
+is tm right for you ?
+the following four steps will help you understand what ’s possible with tm — and what factors you need to consider .
+for implementation guidance , check out help & training and the salesforce.com community .
+if you decide to go ahead with tm , you ’ll find links to additional “ how - to ” information at the end of this document .
+4 steps to deciding if territory management is right for you to evaluate whether tm is right for you , work through the following steps : 1 .
+2 . 3 . 4 .
+understand common use cases visualize a sample territory hierarchy assess your forecasting needs assess your sharing needs step 1 : understand common tm use cases you can use other salesforce crm features to accomplish some of the things you can do with tm .
+for example , you can use the mass transfer utility to easily and frequently reassign records .
+however , there are two use cases for which tm is the perfect solution :  you ’re using the account teams and sales teams feature to align territories , but are finding this approach difficult to manage ( e.g. , frequent staffing changes , re - alignments , sharing requirements ) .
+in this case , tm becomes the better option as the number of reps and records increases .
+ your sales organization is set up as a matrix rather than a tree , as in the example below .
+in such an organization , sales reps need to roll up their opportunities and forecast to more than one manager .
+if your reps are responsible for more than one territory , tm can help you increase your forecast visibility by territory .
+for example , in the diagram below , rep 6 is part of two sales regions — toronto and san francisco .
+with tm , all of rep 6 ’s opportunities will roll up to either toronto or san francisco , based on the territory field on the opportunity .
+without tm , all of rep 6 ’s opportunities would simply roll up to the forecast manager above rep 6 in the role hierarchy .
+you can use tm to organize in all sorts of ways in addition to geography — for example , by product lines , verticals , segmentation , and so on .
+as you can see , tm provides a flexible way to organize your data ( accounts , opportunities , and cases ) and then share it with a group of users ( territory members ) , based on common characteristics ( defined territories ) .
+ceo marketing toronto hr ottawa operations vancouver rep 6 will submit two forecasts : one for san francisco and another for toronto boston rep 1 rep 2 rep 3 new york rep 3 rep 4 rep 5 san fran rep 6 rep 7 rep 9 best practice 2 4 steps to deciding if territory management is right for you step 2 : visualize a sample territory hierarchy it ’s easy to think of a “ territory ” as a geographical trait , but in the context of tm , a territory can be any common characteristic among a set of records for a group that needs to access those records .
+to think of it another way , a territory is a flexible collection of accounts and users , in which users have at least read access to the accounts , regardless of who owns them .
+if your company ’s org structure is nested , as in the example below , and if your sharing needs depend more on account traits than on individual ownership , tm could be right for you .
+characteristics ( or nested levels ) commonly used in a territory hierarchy are account size , strategic accounts , named accounts , and region step 3 : assess how tm can affect forecasting in addition to making it possible to roll up opportunities to multiple forecast managers , tm offers another big benefit : flexibility in forecasting by territory .
+note : once tm is enabled , your forecast hierarchy based on a role hierarchy will be disabled and will simply mirror your territory hierarchy .
+the forecast hierarchy is now identical to the territory hierarchy you can now generate a unique forecast for every territory you define just assign a forecast manager to the territory , and you ’re ready to go best practice 3 4 steps to deciding if territory management is right for you the forecast tab view shows that you can now forecast by territory as well you can assign more than one territory to accounts and users , although opportunities can only have one territory association .
+so , if stephanie ( the sales engineer ) is part of the shipping accounts and high - tech territories , she could work an account called abc corp that is assigned to the shipping accounts and consumer territories .
+shipping accounts is the common territory that lets stephanie access this account .
+when an opportunity is created , she must associate that opportunity to a single territory for forecasting .
+her options will be the common territories between her ( user ) and the account .
+in this case , it will be the shipping accounts territory .
+this example illustrates an important change in how tm shifts your forecasting .
+without tm , you get typical , tree - type hierarchy forecasts in which managers see all the opportunities of their teams .
+this approach works well for managers with only a few reps who simply want a roll up of all the opportunities in their teams .
+but with tm , if stephanie reports to nigel , nigel ’s forecast will only include opportunities associated to the territory for which he ’s responsible .
+he will not see all of stephanie ’s opportunities in his forecast unless they are also part of his territory .
+this difference between forecasting using a role hierarchy versus a territory hierarchy brings us to the fourth and final step .
+step 4 : assess your sharing needs with tm tm is a great way to expand on the default salesforce crm sharing model , which is organized around a particular owner ’s records .
+by managing territories effectively and assigning the right users to those territories , you can set up a highly collaborative sharing model that fits more complex org structures .
+when you explore tm to extend sharing , think about how you organize your data access today .
+are you using the existing features of salesforce crm to their fullest ?
+sharing rules , assignment rules , account and sales teams , and your role hierarchy setup — you can use them all to ensure that different account teams can work together .
+as you evaluate tm , consider how a territory hierarchy will change how your users share data compared to the default role hierarchy .
+the assumption in the table below is that the org wide default setting on the account object is set to “
+private , ” with no extra sharing rules .
+these changes are summarized in this table : rolehierarchy a user has a single role account is accessible by owner , those above in the role hierarchy , and those who have access to a child object on the account ( such as a case or opportunity ) user has a single forecast based on role sales teams used for team selling / overlays no custom fields territoryhierarchy user can be part of many territories
+in addition to those users listed in the left column , account is also accessible by all users in territories to which it is assigned , as well as those above them in the territory hierarchy users have a forecast for each territory in which they work with active opportunities either sales teams or overlay territories may be used for team selling custom fields may be used for integration best practice 4 4 steps to deciding if territory management is right for you as mentioned earlier , whether a user can access a record depends on the common territories between the user and the record .
+you can also set the default access levels for all objects affected by tm .
+although tm extends access to accounts , cases , and opportunities based on their territories , this capability is not true for other objects .
+you decide whether users can only view records or give them greater access , as needed summary tm can help you manage a complex set of sharing and forecasting requirements that would otherwise not be possible .
+because you can use tm to assign records to territories automatically , in real time , based on flexible territory assignment rules , there ’s even more you can do .
+looking for seamless opportunity transfers and deal hold - outs ?
+tm can do that , too .
+if you think the tm capabilities we ’ve described might benefit your organization , it ’s time to explore additional resources to understand the finer nuances of tm :  territory management deployment guide –
+get more information about tm , including step - by - step instructions for rolling out tm in your org .
+ working with territories –
+get tips on assigning territories to records and viewing territory information .
+if you decide to proceed with tm , we suggest you engage salesforce.com consulting early to ensure you fully implement this feature in the right circumstances .
+remember to use the force.com sandbox and test every change before rolling it into production .
+and as always , reach out to your account executive and the salesforce.com consulting teams to guide you along the way .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_territorymanagement_2009 - 06 - 05 8 keys to mobile crm success
+giving your field sales , service , and executive teams mobile access to salesforce is one of the easiest ways for your team to get instant , added value from salesforce .
+you ’ll boost productivity , improve data quality , and help make sure that being out of the office does n’t mean being out of the loop .
+what ’s the best approach for getting your people , your processes , and your devices ready to go mobile ?
+to start , it ’s important to know salesforce.com has two mobile products : salesforce ’s mobile capabilities for your crm needs and soon , chatter mobile for collaboration .
+follow these 8 tips and you ’ll be well on your way to mobile success .
+abstract 1 .
+leverage mobile collaboration ( chatter mobile ) –
+the rise of social networking web sites like facebook and twitter have changed the way users access information , and this shift is rapidly extending to the enterprise .
+products like salesforce chatter give enterprise users a way to share and follow relevant people and records in an environment that ’s trusted and secure .
+mobile access to one ’s “ feed
+” is key to keeping employees across the organization continually informed and productive no matter where they go .
+mobile access to salesforce is one of easiest ways to get the most from your salesforce investment .
+to get started right , follow the tips in this document .
+it ’s an approach that ’s yielded great results for hundreds of customers .
+by : joshua schneyer 2 .
+use newer devices –
+whenever possible , give your team the latest mobile devices .
+salesforce crm ’s mobile functionality supports the most current iphone and blackberry® devices .
+once available , chatter mobile will also work on ipad and android devices .
+if you ’re not sure whether your device is supported , consult our supported devices list .
+or download our mobile apps to test on your device .
+3 . identify key mobile use cases ( the sales cloud ’s mobile capabilities ) –
+you ’ve put lots of thought into customizing your core business processes to meet your organization ’s needs .
+why should your mobile solution be different ?
+before you get started , identify clear and simple mobile use cases with obvious benefits .
+start by defining tasks and processes your users will need in the field , such as : •
+logging phone calls , emails , and visits on the fly • processing orders or updating customer cases in real time • accessing content in salesforce like presentations or brochures and forwarding them to customers consider running a quick pilot on easy - to - deploy mobile lite for useful insight about which mobile use cases are key to your business .
+4 .
+less is more ( the sales cloud ’s mobile capabilities ) – mobile users rarely need access to all the data and features in salesforce .
+be selective about which applications and data you make available .
+users on the go tend to use a small subset of data and repeat the same tasks over and over , such as logging calls and emails and updating opportunities or cases that relate to their territories . 8 keys to mobile crm success limit available data fields to what ’s relevant for certain users and avoid the common trap of downloading every record a user might need .
+instead , use the application ’s intelligent filtering capabilities to store only relevant records on the device at any given time .
+5 .
+train your users –
+as with any new application , it ’s important to show users how to use it — and how they ’ll benefit .
+ask users to watch the getting started with mobile access videos or attend training before giving them mobile access .
+6 .
+choose the right version ( the sales cloud ’s mobile capabilities ) – salesforce offers two mobile versions : mobile lite , which is free across all editions , and the full version , which is free for salesforce crm unlimited edition users ( or available via an add - on license for other editions ) .
+• if your users only need basic mobile access to standard tabs like contacts , leads , and opportunities , try mobile lite .
+it ’s free and you can enable it for your org with one click . • if your mobile use cases include use of custom objects , force.com pages ( visualforce ) , or thirdparty apps from the appexchange , you ’ll probably want to use the full version of mobile . •
+different users have different needs .
+consider a hybrid approach where mobile users with advanced needs are set up on the full version and those with basic needs receive mobile lite . 7 .
+work with your it department – be sure to work with your it department to accommodate restrictions or requirements related to mobile devices .
+for example , if your blackberry devices connect through your corporate firewall , there may be security and communications requirements .
+8 .
+take advantage of our resources –
+mobile access to salesforce can become one of your most powerful business tools , but there are a few extra moving parts .
+salesforce.com provides a range of free resources to jump - start your mobile deployment , including live q&a webinars , how - to videos , implementation guides , and tip sheets .
+to get started , check out these resources : • • • • mobile for the sales cloud web site
+getting started with mobile video mobile community blog supported devices list of course , feel free to contact your account team for recommendations for your specific needs .
+summary mobile access to salesforce is one of easiest ways to enhance the value of your salesforce investment .
+before you start , have clear goals that define what you want people to be able to do from the field .
+for the best performance , make sure you have newer mobile devices .
+to prepare , define clear use cases and train your users .
+as you roll out mobile features , start with a standard configuration ( mobile lite ) and improve the application based on user feedback as you expand access and capabilities .
+consider providing all employees — not just those working outside the office — with mobile access to chatter for enhanced , realtime collaboration and communication .
+finally , be sure to take advantage of the resources provided by salesforce.com .
+for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_mobilesuccess_2010 - 08 - 25 how to measure and increase customer loyalty for companies that face both significant competition and high costs associated with acquiring each customer , customer loyalty becomes crucial .
+studies have shown that organizations with loyal customers had profits of up to 60 percent higher than those of competitors .
+they were also twice as likely to exceed the forecasts of financial analysts .
+in addition , high customer satisfaction scores consistently show a correlation with sales growth .
+the bottom - line equation is simple : customer loyalty = higher profits .
+it ’s no wonder that customer loyalty and retention consistently rank among the top challenges faced by ceos , as shown by gartner surveys of ceos and business executives .
+measure customer loyalty a popular model that provides a view of customer loyalty is harvard business review ’s apostle model , which segments customers into four quadrants ( figure 1 ) .
+to measure the attitudes that result in this model , customers are asked to rate their overall satisfaction on a scale of 1 to 10 ( horizontal axis ) and their likelihood to continue to do business with you on a scale of “
+definitely will ” to “
+definitely will not ”
+( vertical axis ) .
+in this model , “
+defectors ” are defined as anyone who answers the satisfaction question with a score of 6 or less and reports that they definitely or probably will not continue to do business with you in the future .
+abstract customer loyalty has a significant impact on a company ’s profits and its prospects for the future .
+this article provides insight on how you can find out where you stand with your customers and how to use that information to make your customers more loyal .
+by : wendy close figure 1 : the apostle model measures both loyalty and satisfaction .
+by plotting the scores for both variables , you can segment customers into four categories .
+how to measure and increase customer loyalty strategies for each customer segment
+by asking your customers to rate your company in a similar survey , you can segment your customers as well .
+once you know how your customers fit into these categories , you can focus on the best strategies for dealing with each group .
+ loyalists report both high satisfaction and high loyalty .
+these customers are , in essence , an extension of your sales force because they spread positive word - of - mouth publicity . loyalists also typically increase their spending more rapidly than other customers in your customer base .
+understand , serve , and protect these customers and focus on developing communities for ( and with ) them .
+because relationships with loyalists tend to last longer and because of their role in generating referrals , customer acquisition costs for loyalists tend to be lower than those for other customers .
+because of the many benefits loyalists bring to your business , you should prioritize any strategies that strengthen and expand these relationships .
+ hostages report high loyalty despite low satisfaction .
+this situation typically appears when there is little competition or a high risk associated with changing suppliers , such as economic costs or time investments .
+customers in this category feel “ trapped . ”
+for such customers , focus on strategies that can turn them into loyalists by understanding and addressing their issues before they spread their dissatisfaction to others or abandon your company .
+communicating intensively with such customers is crucial : if they see that you ’re listening to them , addressing their issues , and making it easier to use your product or service , they ’re less likely to decrease their spending and more likely to say positive things about you .
+ mercenaries report high satisfaction , but low loyalty .
+these are the customers who are highly pricesensitive and will switch easily when they have the opportunity .
+for such customers , focus on communicating those benefits of your product or service that show they ’re getting good value overall from your company .
+ defectors report both low satisfaction and low loyalty .
+in addition to the costs associated with losing them , defectors also tend to spread their disgruntlement to others —
+defectors are typically responsible for 80 to 90 percent of a company ’s negative word - of - mouth publicity .
+defectors also tend to complain more frequently , thereby consuming customer service resources .
+focus on strategies for releasing these customers with good will intact or implement a well - designed customer win - back program .
+another popular model for measuring customer loyalty is fred reichheld ’s net promoter score ( nps ) , explained in his latest book , the ultimate question .
+using the question “ how likely is it that you would recommend company x to a friend or colleague ? ”
+customers are mapped into three categories : promoter , passive , and detractor .
+you can then quantify the value of a promoter or detractor and use the results to develop strategies for turning more of your customers into promoters .
+measure emotional vs. rational customer loyalty another aspect of customer loyalty involves the difference between emotional and rational loyalty .
+are your customers rationally loyal because they appreciate the tangible benefits of your products or services ?
+are they emotionally loyal because they love your business and how you make them feel ?
+or is it some combination of the two ?
+according to dr. gerald zaltman of harvard business school , laboratory of the consumer mind , “
+consumers are driven far less by tangible attributes of products and services than by subconscious sensory and emotional elements derived from the total experience surrounding a transaction . ”
+because customers who are rationally loyal often know how to “ work the system , ” they tend to be less profitable than customers who are also emotionally loyal .
+for that reason , it ’s important to measure both dimensions of loyalty and to take steps to increase your customers’ emotional loyalty .
+customers who have a high degree of both rational and emotional loyalty are considered to be “ engaged’ customers .
+best practice 2 how to measure and increase customer loyalty measure and enhance emotional loyalty the following questions are examples of how to measure emotional loyalty , which is closely related to whether customers think your organization has their best interests at heart 1 .
+to measure this dimension , use a scale of 1 to 10 , where 1 is “
+strongly disagree ” and 10 is “
+strongly agree .
+” < company > behaves with fairness and integrity < company > strives to understand a customer ’s needs < company > strives to meet its commitments to a customer < company > resolves conflicts with a customer fairly < company > communicates openly and honestly with a customer < company > is committed to a customer ’s success < company > makes a customer feel appreciated < company > is deserving of a customer ’s loyalty to enhance emotional loyalty , focus on turning customer problems into opportunities for your company .
+research shows that customers who complained and felt that a company adequately addressed their problems reported higher loyalty than customers who did n’t complain .
+also , train all customer - facing employees to act as ambassadors of messages your customers most need to hear , such as “ we appreciate you . ”
+above all , focus on strategies that engage customers’ emotions , such as passion , intimacy and partnership , interdependency , and commitment .
+examples of companies that have done so extraordinarily well include apple , google , and harley davidson .
+measure and enhance brand perception when you measure both rational and emotional loyalty , you in essence measure brand perception to determine whether your efforts to create a particular brand perception are successful .
+the questions that follow are examples for measuring perceptions around safety and trust .
+the questions you would ask would of course depend on how you want to position yourself 2 .
+to measure brand perception , use a scale of 1 to 10 , where 1 is “
+strongly disagree ” and 10 is “
+strongly agree . ”
+< company > is a reliable company < company > is a reputable company < company > is a trustworthy company < company > is easy to do business with < company > inspires confidence
+< company > provides good value < company > is a leader in “
+xyz ”
+( e.g. , enterprise storage ) use salesforce.com resources to increase customer loyalty finding out where you stand in terms of customer loyalty is the first step toward increasing it .
+to help measure your customers’ attitudes , the appexchange includes a number of partner apps — such as zoomerrang and clicktools — for collecting and analyzing customer responses from within salesforce crm .
+such tools can also provide real - time feedback at customer touch points such as an event or service call .
+research into how companies use customer feedback shows some surprising results . 1 markettools , inc. “ best practices in customer satisfaction and loyalty programs ” markettools , inc. “ how to approach customer experience management ” 2 best practice 3 how to measure and increase customer loyalty for example , although 95 percent of all companies collect customer feedback in some form , surprisingly few report actually using that information constructively .
+only 50 percent report sharing this information with staff , 30 percent report basing important decisions on that information , 10 percent use the information to deploy new products or services , and only 5 percent share it with their customers .
+it ’s obvious that a lot of potential is lost — a loss that provides any company that leverages such information with a significant competitive advantage .
+here are some suggestions for doing just that :  decide on mechanisms for sharing satisfaction data with your customers , such as dashboards on your web site or periodic updates in your newsletters .
+ for more information contact your account executive to learn how we can help you accelerate your crm success . 5 secrets for building a customer - centric business
+according to a major analyst , enterprises that deploy crm strategies will return at least 25 percent better financial returns than those that do n’t .
+how can your organization deliver such results ?
+if you ’re a small or midsize business , work to incorporate the 5 secrets below in your crm system .
+in the process , you ’ll transform your business and set the stage for even greater success in the years ahead . 1 . 2 . 3 . 4 . 5 .
+without a clear mission , you ’ll falter crm is a business strategy , not a technology do n’t invest another dime in technology infrastructure crm dashboards are more than just eye candy becoming customer centric is an ongoing process abstract small and midsize businesses can greatly increase their chances for success by becoming customer centric .
+here are 5 secrets for achieving that goal .
+by wendy close secret 1 : without a clear mission , you ’ll falter studies of successful businesses show one clear indicator of success : the business knows exactly what value it ’s delivering , to whom , and how to do so profitably .
+successful crm demands a clear crm vision so you can put a strategy and corresponding infrastructure in place .
+for example , our mission at salesforce.com is to make every customer and partner wildly successful .
+we came up with several crm strategies to realize our mission — a user community for sharing information and best practices , an online service for sharing business applications ( www.appexchange.com ) , a virtual demo environment , and free trials for a taste of success before buying ( www.salesforce.com ) .
+secret 2 : crm is a business strategy , not a technology a crm system will help you achieve these basic strategies for a successful customer - centric business :  extend the depth and breadth of your customer relationships  reduce delivery channel costs and create barriers to entry  reinforce your brand  create customer satisfaction and loyalty in an independent survey of 944 small to midsize businesses ( smbs ) that use salesforce crm , the top three business strategies were revenue enhancement , customer loyalty and satisfaction , and cost reduction .
+what are your key strategies
+? 5 secrets for building a customer - centric business secret 3 : do n’t invest another dime in technology infrastructure many cios of smbs are trapped , spending their entire it budget just on keeping the lights on .
+to avoid that fate , consider spending 20 to 35 percent of your it budget on innovation .
+decommission any legacy client / server apps that are hard to use , maintain , support , and upgrade —
+they’re likely to be a hefty portion of your it budget .
+then integrate those applications where it makes sense to exchange data into crm .
+secret 4 : crm dashboards are more than just eye candy investing in developing dashboards can have a big impact on business performance .
+dashboards inspire by showing information in context , highlighting productivity and showing effectiveness— all at a glance .
+with dashboards , you can see key crm performance indicators all together : the number of open opportunities , close rate , competitive knockouts , number of open service calls , average time to service resolution , and more .
+there are literally hundreds of crm metrics you can track .
+best practice is to use no more than 7 ( ±2 ) metrics at any given management level .
+secret 5 : becoming customer centric is an ongoing process as an smb , being able to adapt to change is your greatest weapon against competition from larger businesses .
+your crm strategy and the technology that supports it should be flexible and adaptable to changing conditions .
+make sure you regularly reevaluate your approach to stay customer centric .
+use these secrets to evaluate your own approach to crm .
+with the right vision , strategies , and tools , you can develop closer customer relationships , gain competitive advantage , and succeed .
+for more information contact your account executive to learn how we can help you accelerate your crm success . bp_5secrets-2-csb _ 2010 - 03 - 05
+for business success , mind your metrics “
+you do n’t have to track all your customers .
+just those you want to keep . ”
+that ’s how one ceo recently summarized his rationale for tracking the metrics that show how his company gets new customers , sells more to those it already has , and retains customers despite increasing competition .
+like many other executives , he insists on measuring performance and using those measures to continually raise the bar and ensure accountability .
+companies have spent millions on software to manage corporate performance .
+the umbrella term corporate performance management ( cpm ) is often used to describe these methodologies , metrics , processes , and systems .
+by making the most of the crm metrics in your salesforce crm system , you can get many of the benefits of a cpm solution for free .
+in the past , companies primarily looked to stock market valuation and perhaps market share as the key indicators of their success .
+but many managers outside the financial areas saw their departments’ contribution as more of an art than a science .
+one marketing manager famously said he knew half of his advertising budget was wasted , he just did n’t know which half .
+three developments have made such attitudes unthinkable today .
+the first is a focus on corporate governance as a result of legislation .
+the second is increasing pressure on managers in all areas to prove the contributions of their departments .
+finally , the metrics that quantify those contributions have become easier to capture , interpret , and visualize .
+abstract metrics are measurements that quantify business performance metrics are also your ticket to increasing that performance , improving planning and control cycles , and ensuring accountability .
+initially driven by a need for corporate transparency and legislation such as the sarbanes - oxley act , businesses are embracing a trend toward identifying and measuring key metrics .
+they are aided in this task by tools that help to analyze and visualize data in a way business users can understand .
+there are key metrics for just about any corporate function .
+this document highlights metrics relevant to crm — particularly in sales , marketing , and customer service — and shows how salesforce.com helps to make that information available to all who need to know .
+although a business must be profitable to be successful , there is increasing by : wendy close awareness that there ’s more to success than the bottom line .
+by tracking not just the standard metrics that make up corporate balance sheets , companies can greatly increase their chances of success .
+it ’s easy to see the benefits and competitive advantages of such a strategy : by continually tracking performance you can spot both potential problems and new opportunities early and take appropriate action .
+what ’s harder is knowing exactly how to apply this knowledge to your organization .
+to successfully use crm metrics , you ’ll have to address the following questions : what metrics are most important for you to track ?
+how do you get them and distribute them ?
+and how do you make the most of them ?
+this document will get you started on answering those questions .
+for business success , mind your metrics why bother with crm metrics ?
+performance .
+improvement .
+accountability .
+if these are the mantras of today ’s business world , metrics are the means to achieving them .
+metrics ensure that decisions are n’t made on the basis of one person ’s wishful thinking or another ’s sinking feeling .
+in addition to these general goals , here are some specific contributions metrics can make to your organization :   achieve your company vision –
+you know what sets you apart .
+by choosing metrics that measure your progress in the areas that differentiate you , you can grow toward your vision . evaluate and plan acquisitions –
+whether you ’re shopping for new software or a new company , defining success metrics will help you search for the best candidates , recognize them when you find them , and calculate the return on investment ( roi ) .
+calculate and improve effectiveness –
+knowing what works and what does n’t is crucial to success .
+by evaluating which campaigns or investments pay off , you can invest resources in those areas with the biggest payoff and learn from your mistakes .
+look out for problems –
+consistently following success metrics will alert you to trends that could spell trouble .
+you can also identify additional metrics to temporarily monitor special situations , such as a new product introduction .
+improve communication –
+everyone has an opinion .
+making the same concrete facts available to all the stakeholders helps to focus and facilitate discussion and decision - making .
+spot opportunities –
+spotting trends early gives you a jump - start on your competitors .
+get executive buy - in – executive support has been identified as crucial to a successful project .
+using metrics to make your case of why a solution is needed , explaining what it will cost , and showing how the company will benefit will help you prove your case — and keep on proving it .
+justify your existence –
+in today ’s corporate culture , resources go to those who can show how their projects contribute to the bottom line and to the company ’s vision .
+      which crm metrics should you track ?
+there are hundreds of crm metrics you can track , so select them carefully .
+best practice is to monitor about 7 ( ± 2 ) metrics for any particular area .
+the key is to get good insight without becoming a slave to metrics .
+one approach is to tie crm metrics to your organization ’s other financial and business objectives .
+also , keep in mind that the crm metrics you choose should be specific to your company , its size , the product lifecycle , and your corporate mission .
+for example , a new company with a promising but unknown product will need to invest heavily in marketing campaigns to solicit customers , build product awareness , and establish its brand .
+such a company would want to keep close track of metrics such as number of new leads per marketing campaign , number of sales opportunities per campaign , and opportunities closed per campaign .
+on the other hand , a company with a well - established brand , a large customer base , and a portfolio of products would want to focus on metrics that identify its most profitable customers and those programs that motivate them to further increase their spending .
+such a company would want to track upsells and cross - sells with metrics such as number of products / services per customer and profit per customer . metrics to measure customer loyalty regardless of product or company size ,
+measuring customer satisfaction and loyalty is crucial .
+customer satisfaction has been consistently linked to superior stock performance and sales growth .
+four satisfaction metrics that work together to measure loyalty include overall customer satisfaction , likelihood to continue to do business , likelihood to recommend you , and likelihood to expand business with you .
+the harvard business review ’s “ apostle model ” uses the overall customer satisfaction and continue to do business best practice 2 for business success , mind your metrics metrics for segmenting customers into four groups ( loyalists , mercenaries , hostages , and defectors ) and recommending specific strategies for appealing to each group .
+metrics to measure sales performance other metrics most companies will want to track are those related to sales performance , including increasing revenues , sales effectiveness , and market share .
+sales metrics let you track sales trends over time and measure the impact of programs designed to improve them .
+for example , when executives were asked about improvements in key “ sales success metrics ” , the survey found an average improvement of 38 percent in forecast accuracy and a 29 percent increase in lead conversion rate since adopting salesforce crm1 .
+to determine sales effectiveness , you can track metrics available through salesforce crm , such as average deal size , length of sales cycle , number of calls required to close , percentage of deals that close as forecasted , and close rate .
+in addition , metrics that show results at various stages of the sales funnel can help improve your sales close rate .
+by tracking new leads by product , percentage of leads resulting in meetings , percentage of meetings resulting in presentations , percentage of presentations resulting in proposals , and percentage of proposals resulting in sale , you can identify at which stage your sales process may be breaking down .
+for example , if many customers request presentations , but few presentations result in requests for proposal , you ’ll want to find ways to improve your presentations .
+having such information helps to define where to invest resources ; in the past , many managers trying to increase sales simply kept creating additional awareness campaigns .
+getting metrics there are several sources for metrics :    internal systems , such as your financial systems or your salesforce crm system .
+most of the rest of this article is about metrics available through salesforce crm .
+surveys related to customer satisfaction and loyalty — check the appexchange .
+regardless of the frequency of your surveys or the tools you use , store the results in salesforce crm by account .
+commercial marketing data providers .
+for example , to measure market share you need to compare your performance to that of your peers and competitors — such information is available through ac nielsen .
+calculations involving individual metrics that result in “ aggregates ” that provide insight about trends .
+
+ salesforce.com puts many key metrics at your fingertips : sales metrics –
+based on the capabilities of salesforce.com’s sales cloud — including sales management , forecasting , win - loss analysis , and pipeline analysis —
+sales metrics provide insight into overall sales trends as well as into the performance of particular channels , sales teams , and individual representatives .
+marketing metrics –
+based on the capabilities of salesforce crm ’s marketing functionality— including campaign management , email marketing , lead management , contact management , and marketing analytics — marketing metrics help you determine which marketing activities are most effective , adjust campaigns accordingly , and serve as a basis for determining marketing budgets .
+service metrics –
+based on the features of salesforce.com’s service cloud— including cases , solutions , ideas , and customer portal —
+service metrics show how well your service organization is performing overall and analyze the performance of specific service centers and individual customer service representatives .
+  1 “ salesforce.com customer relationship survey , ” conducted april 2010 by independent third - party vendor markettools inc. ; 4,000 + customers were randomly selected .
+response sizes per question varied .
+best practice 3 for business success , mind your metrics
+sales metrics # of prospects # of new customers # of retained customers # of open opportunities close rate # of sales calls # of calls per opportunity amount new / recurring revenue time to close by channel margin sales stage / sales cycle duration service metrics cases closed same day marketingmetrics # of campaigns # of cases handled by agent # of service calls # of requests by type average time to resolution average number of calls per day percentage compliance slas percentage service renewals complaint time - to - resolution # of responses by campaign # of purchases by campaign revenue by campaign # of new customers by campaign cost per interaction by campaign # of new leads by product customer satisfaction level propensity for customer defection table 1 : this table shows sample metrics available through salesforce crm .
+of course , many customers create additional metrics by adding custom fields and then including those values in their dashboards and reports .
+distributing metrics until recently , metrics outside finance and accounting were uncommon and the people who created them worked in what was , for most people , a mysterious area known as “ business intelligence . ”
+with complex analytical tools or complicated spreadsheets their findings were out of reach to the average manager or business user .
+however , with the advent of tools that make it easy to extract metrics from business data and to visualize it in salesforce crm reports and dashboards , business intelligence was democratized .
+as a result , access to an organization ’s most important metrics is no longer restricted to those with special training and tools .
+ordinary business users can easily customize reports and build dashboards to create and monitor those metrics that are most important to them .
+figure 1 : this sample pipeline dashboard shows the type of real - time , graphical reports that can be created from salesforce crm data .
+making the most of metrics to make the most of metrics , determine how to best aggregate them to show trends , identify specific events where metrics can provide one - time decision support , and distribute metrics to mobile devices .
+make better one - off decisions
+in addition to tracking trends , you can identify specific event - driven metrics and add them to a salesforce crm dashboard to track how an event is evolving and make adjustments accordingly .
+for example , you could monitor the number of service calls related to a new product introduction and look for spikes in call volumes that would show that additional resources are needed .
+another example , shown below , shows an actual dashboard created by a marketing operations manager who plans and manages more than 75 marketing events each year .
+best practice 4 for business success , mind your metrics figure 2 : this dashboard shows progress toward the goal of total registrations , lists registered clients ( blanked out because it is propriety information ) , and provides a breakdown of client segments .
+make better long - term decisions context counts .
+besides choosing individual metrics , it ’s important to choose metrics that work well in relation to one another , such as the metrics that show results at each stage of the sales cycle .
+by identifying what decisions you need to make , you can identify those metrics that work together to deliver the information needed to make those decisions .
+also , keep in mind that the “ raw ” metrics from your data may not show those trends that will impact your organization ’s overall financial and business objectives over time .
+to achieve that goal , consider combining metrics to calculate higher - level metrics in the sales , marketing , and customer service areas .
+metrics on the go another way to make the most of metrics is to make them available to your field staff , so that being out of the office wo n’t mean being out of the loop .
+with mobile access to salesforce crm , users not only have access to all the latest data , but they can enter data that updates critical metrics as well .
+and because all leading mobile devices and operating systems are supported , you wo n’t have to invest in new devices .
+visit www.appexchange.com for dozens of mobile applications that are ready to go .
+summary   select metrics that measure each stage of the sales funnel to determine where intervention may be needed .
+tie metrics to business goals and choose about 7 metrics per area ( ±2 ) .
+choose metrics most helpful to your particular business situation .
+collect customer loyalty metrics with surveys and store that data in salesforce.com by account .
+survey semi - annually if you have fewer than 500 customers with one or two contacts per customer .
+survey quarterly if you have more than 500 customers and multiple contacts per customer .
+leverage the appexchange for sample dashboards , survey tools , and other resources .
+  for more information contact your account executive to learn how we can help you accelerate your crm success .
+bp_metrics_2010 - 11 - 08
